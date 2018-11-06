@@ -1,0 +1,3367 @@
+<!DOCTYPE html> 
+<html lang="en" ng-app="colorAdminApp" class="ng-scope"> 
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+    <title>MUTUAL MEDICA</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="" name="description">
+    <meta content="tidinternationalgroup" name="author">
+		
+	<link rel="shortcut icon"   href="includes/images/favicon.png" /> 
+  
+    <link rel="stylesheet" type="text/css" href="includes/css/jquery-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="includes/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="includes/css/animate.min.css" />  
+    <link rel="stylesheet" type="text/css" href="includes/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="includes/css/ionicons.css" />	 
+	
+    <link rel="stylesheet" type="text/css" href="includes/css/my_style.css" /> 
+    <link rel="stylesheet" type="text/css" href="includes/css/bootstrap-datepicker.css" /> 
+
+</head>
+
+<body>
+ 
+	<header>
+		
+		<!--- MENU DESKTOP & LAPTOPS --->   
+		   
+		<nav class="header-bg-dark visible-md visible-lg navbar navbar-inverse"> 
+		
+			<div class="container -fluid"> 
+			
+				<div class="row">
+				 
+					<ul class="nav navbar-nav navbar-left  navbar-1"> 
+						<li class="dropdown">
+							<a href="#" data-pane="#top-menu-pane-1" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mutual Médica <i class="icon ion-chevron-down"></i> </a>
+						</li>
+						<li class="dropdown">
+							<a href="#" data-pane="#top-menu-pane-2" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Seguros <i class="icon ion-chevron-down"></i> </a>
+						</li>
+						<li><a href="#">Contacto</a></li>
+						<li class="dropdown">
+							<a href="#" data-pane="#top-menu-pane-3" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Noticias <i class="icon ion-chevron-down"></i> </a>
+						</li>
+						<li><a href="#">Fundación</a></li>
+					</ul>
+						
+					<ul class="nav navbar-nav navbar-right navbar-4">
+						<li><a href="#" class="top-menu-btn-blue">Soy Mutualista</a></li> 
+					</ul>
+				  
+					<ul class="nav navbar-nav navbar-right navbar-3">
+						<li class="navbar-phone">901 215 216</li>
+						<li class="dropdown">
+							<a href="#" data-pane="#top-menu-pane-4" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-search" aria-hidden="true"></i> </a>
+						</li>
+					</ul>
+				  
+					<ul class="nav navbar-nav navbar-right navbar-2"> 
+						<li><a href="#" class="strong" title="Español">ESP</a></li>
+						<li><a href="#" title="Catalán">CAT</a></li>
+					</ul>
+						 
+				</div>
+			
+			</div>
+			
+		</nav>
+		
+			<div class="top-menu-content visible-md visible-lg">
+			
+				<div class="container">
+			
+				  <div class="top-menu-tab-pane" id="top-menu-pane-1"> 
+					<div class="row row-table valign-top">
+						<div class="col-md-4 v-line">
+							<h4>La mutualidad de los médicos</h4>
+							<p>
+								Conoce todo lo que puede hacer la.
+							</p>
+							<a href="#" class="link"> Quiero saber más </a>
+						</div>
+						<div class="col-md-4 v-line">
+							<h4>Por qué ser Mutualista</h4>
+							<p>
+								Sólo por ser Mutualista podrás disfrutar</br>
+								de un gran número ventajas pensadas</br>
+								para ti y los tuyos.
+							</p>
+							<a href="#" class="link"> Descúbrelas aquí </a>
+						</div>
+						<div class="col-md-4 v-line">
+							<h4>También puede interesarte...</h4> 
+							<ul>
+								<li><a href="#">Órganos de gobierno</a></li>
+								<li><a href="#">Informes y documentos</a></li>
+								<li><a href="#">Casa del médico</a></li>
+							</ul> 
+						</div>
+					</div>
+				  </div> 
+				  
+				  <div class="top-menu-tab-pane" id="top-menu-pane-2">
+					<div class="row row-table valign-top">
+						<div class="col-md-3">
+							<ul>   
+								<li><a href="#">Alternativa a Autónomos</a></li>
+								<li><a href="#">Incapacidad Laboral Temporal</a></li>
+								<li><a href="#">Incapacidad Profesional Permanente</a></li>
+								<li><a href="#">Seguro de Dependencia</a></li> 
+								<li><a href="#">Seguro Vida-Ahorro</a></li>						
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<ul>   
+								<li><a href="#">Multi-Vida</a></li>
+								<li><a href="#">Orfandad</a></li>
+								<li><a href="#">Estudios garantizados</a></li>
+								<li><a href="#">Plan Previsión Asegurado Mutual</a></li> 
+								<li><a href="#">Seguro Jubilación Mutual</a></li>						
+							</ul>
+						</div>
+						<div class="col-md-3"> 
+							<ul>   
+								<li><a href="#">Seguro Ahorro-Inversión</a></li>
+								<li><a href="#">Seguro Ahorro-Garantizado</a></li>
+								<li><a href="#">Mutualista Joven</a></li>
+								<li><a href="#">Seguro Jubilación Ahorro Fiscal 105</a></li> 						
+							</ul>
+						</div>
+						<div class="col-md-3 v-line">
+							<h4>Médico de Ejercicio</br> Libre (MEL)</h4>
+							<p> 
+								Única alternativa al régimen de</br>
+								autónomos para médicos que</br>
+								quieran ejercer por cuenta propia.
+							</p>
+							<a href="#" class="link"> Quiero saber más </a>
+						</div>
+					</div>
+				  </div> 
+			
+				  <div class="top-menu-tab-pane" id="top-menu-pane-3">
+					<div class="row row-table valign-top">
+						<div class="col-md-3 v-line">
+							<h4>Última hora</h4>
+							<p> 
+								Consulta las noticias y novedades</br>
+								que más pueden interesarte como</br>
+								mutualista.
+							</p>
+							<a href="#" class="link"> Quiero estar al día </a>
+						</div> 
+						<div class="col-md-3 v-line">
+							<h4>Estudios y publicaciones</h4> 
+							<p>  
+								Aquí encontrarás documentos sobre el</br>
+								ámbito de los seguros de previsión</br>
+								social para médicos.
+							</p>
+							<a href="#" class="link"> Quiero saber más </a>
+						</div>
+						<div class="col-md-3 v-line">
+							<h4>Mutual Informa</h4> 
+							<p>  
+								Consulta desde aquí el boletín de</br>
+								información bimestral de Mutual</br>
+								Médica.
+							</p>
+							<a href="#" class="link"> Me interesa </a>
+						</div>
+						<div class="col-md-3 v-line">
+							<h4>Sala de prensa</h4> 
+							<p> 
+								Espacio para periodistas: con</br> 
+								contenidos y recursos de interés</br> 
+								para la labor informativa.
+							</p>
+							<a href="#" class="link"> Me interesa </a>
+						</div>
+					</div>
+				  </div> 
+				  
+				  <div class="top-menu-tab-pane" id="top-menu-pane-4">
+				   
+					<div class="top-menu-content-search">  
+						<form class="navbar-form" action="?"> 
+							<div class="row">
+								<div class="input-group">  
+									<input id="searh-str" class="form-control" placeholder="En qué puedo ayudarte…">  
+									<span class="input-group-btn"> <button class="btn form-control btn-rounded-blue-search" type="submit"> Buscar </button> </span> 
+								</div> 
+							</div>
+						</form>  
+					</div>
+					 
+				  </div> 
+				  
+				</div>
+			
+			</div>
+	  
+			<div class="header-bg-white visible-md visible-lg">
+			
+				<div class="container"> 
+				
+					<div class="row">
+
+						<div class="left"> <a href="#" class="logo"> <img alt="MutualMedica" src="includes/images/logo.png"> </a> </div> 
+
+						<div class="right"> 
+						 
+							<ul class="nav navbar-nav navbar-left"> 
+								<li class="dropdown"> <a href="#" data-pane="#main-menu-pane-1" class="dropdown-toggle selected" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Iniciar</br>actividad privada </a></li>
+								<li class="dropdown"> <a href="#" data-pane="#main-menu-pane-2" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Asegurar</br>mis ingresos </a></li>
+								<li class="dropdown"> <a href="#" data-pane="#main-menu-pane-3" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Asegurar</br>a mi familia </a></li>
+								<li class="dropdown"> <a href="#" data-pane="#main-menu-pane-4" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Preparar</br>mi futuro </a></li>
+								<li class="dropdown"> <a href="#" data-pane="#main-menu-pane-5" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Primeros pasos</br>como Médico </a></li>
+								<li class="dropdown"> 
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Te ayudamos <i class="icon ion-chevron-down text-dark-blue"></i> </a>
+									<div class="dropdown-menu dropdown-menu-help dropdown-menu-right"> 
+										<div class="row row-table_ valign-top">
+											<div class="col-md-8">
+												<h4>Atención Personalizada</h4><h4>901 215 216</h4> 
+												<p class="text-md text-blue"> Horario L-V de 9:00h a 21:00h. </br> Precio llamada local. </p> 
+												<ul class="ul-ayudamos">   
+													<li class="hidden">¿Buscas asesoramiento? Accede a <a href="#">nuestro formulario</a></li>
+													<li class="hidden">¿Quieres rescatar tu jubilación?  <a href="#">Te lo mostramos</a></li>
+													
+													<li>¿Tienes dudas? Consulta las <a href="#"> preguntas frecuentes</a></li>
+													<li>¿Buscas asesoramiento? Accede a <a href="#">nuestro formulario</a></li> 
+													<li>¿Quieres solicitar una prestación? <a href="#">Mira cómo tramitarla</a></li>
+													<li>¿Quieres mejorar la fiscalidad? <a href="#">Te lo mostramos</a></li>
+													<li>Consulta el <a href="#">Glosario asegurador</a></li>			
+												</ul> 
+											</div>  
+											<div class="col-md-4">  
+												<a href="#" class="btn link-block">  
+													<img alt="MutualMedica" src="includes/images/i-help-1.png" height="65px">  
+													<div> Accede al Área </br> del mutualista </div> 
+												</a>
+											
+												<a href="#" class="btn link-block-blue mt-md">  
+													<img alt="MutualMedica" src="includes/images/i-help-2.png" height="65px">  
+													<div> Nuestras oficinas </div> 
+												</a> 
+											</div>
+										</div>
+									</div> 
+								</li>
+							</ul>
+							
+						</div> 
+
+					</div>
+				  
+				</div>
+				 
+				<div class="main-menu-content">
+				
+					<div class="container">
+				
+					  <div class="main-menu-tab-pane" id="main-menu-pane-1"> 
+						<div class="row row-table valign-top">
+							<div class="col-md-4 v-line">
+								<h4>La mutualidad de los médicos</h4>
+								<p>
+									Conoce todo lo que puede hacer la</br>
+									mutualidad por ti, por tu carrera</br>
+									profesional y por tu familia.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-md-4 v-line">
+								<h4>Por qué ser Mutualista</h4>
+								<p>
+									Sólo por ser Mutualista podrás disfrutar</br>
+									de un gran número ventajas pensadas</br>
+									para ti y los tuyos.
+								</p>
+								<a href="#" class="link"> Descúbrelas aquí </a>
+							</div>
+							<div class="col-md-4 v-line">
+								<h4>También puede interesarte...</h4> 
+								<ul>
+									<li><a href="#">Órganos de gobierno</a></li>
+									<li><a href="#">Informes y documentos</a></li>
+									<li><a href="#">Casal del médico</a></li>
+								</ul> 
+							</div>
+						</div>
+					  </div> 
+					  
+					  <div class="main-menu-tab-pane" id="main-menu-pane-2"> 
+						<div class="row row-table valign-top">
+							<div class="col-md-4 v-line">
+								<h4>Durante una baja laboral</h4>
+								<p> 
+									Te preocupa que un accidente o</br>
+									enfermedad inesperados puedan</br>
+									poner en riesgo tus ingresos.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-md-4 v-line">
+								<h4>Protegiendo mi especialidad</h4>
+								<p>
+									Asegura tus ingresos en caso de que</br>
+									no puedas seguir ejerciendo tu</br>
+									especialidad médica.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-md-4 v-line">
+								<h4>En caso de dependencia</h4> 
+								<p>
+									Contar con una renta vitalicia ante</br>
+									una situación de dependencia puede</br>
+									marcar un antes y un después.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+						</div>
+					  </div> 
+					  
+					  <div class="main-menu-tab-pane" id="main-menu-pane-3"> 
+						<div class="row row-table valign-top">
+							<div class="col-md-4 v-line">
+								<h4>Pensando en los míos</h4>
+								<p>  
+									Asegura la estabilidad económica de tu familia</br>
+									por si algún día faltas o te encuentras en una</br>
+									situación de incapacidad o invalidez.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-md-4 v-line">
+								<h4>Que nada les falte a mis hijos</h4>
+								<p>
+									Protege la tranquilidad de tus hijos y</br>
+									los planes que tienes para ellos ante</br>
+									cualquier circunstancia.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-md-4"></div>
+						</div>
+					  </div> 
+					  
+					  <div class="main-menu-tab-pane" id="main-menu-pane-4"> 
+						<div class="row row-table valign-top">
+							<div class="col-md-4 v-line">
+								<h4>Me preocupa la jubilación</h4>
+								<p>  
+									Empieza a pensar en tu jubilación con</br>
+									los diferentes seguros que hemos</br>
+									preparado para ti.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-md-4 v-line">
+								<h4>Me interesa ahorrar</h4>
+								<p>
+									Te ofrecemos diferentes formas de</br>
+									ahorro para que empieces a construir</br>
+									la vida que deseas.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-md-4 v-line">
+								<h4>Portal de Jubilación del Médico</h4> 
+								<p>
+									Todo lo que necesitas saber sobre tu</br>
+									jubilación y cómo complementarla.</br></br>
+								</p>
+								<a href="#" class="link"> IrA al portal </a>
+							</div>
+						</div>
+					  </div> 
+					  
+					  <div class="main-menu-tab-pane" id="main-menu-pane-5">
+						<div class="row row-table valign-top">
+							<div class="col-md-3">
+								<ul>   
+									<li><a href="#">Envejecimiento de la población</a></li>
+									<li><a href="#">Sistema de pensiones</a></li>
+									<li><a href="#">El médico y la jubilación</a></li> 					
+								</ul>
+							</div>
+							<div class="col-md-3">
+								<ul>   
+									<li><a href="#">Conceptos básicos sobre jubilación</a></li>
+									<li><a href="#">Regulación y Fiscalidad</a></li>
+									<li><a href="#">Hablamos con los colegios</a></li> 						
+								</ul>
+							</div>
+							<div class="col-md-3"> 
+								<ul>   
+									<li><a href="#">Qué opinan los médicos</a></li> 						
+								</ul>
+							</div>
+							<div class="col-md-3 v-line">
+								<h4>Médico de Ejercicio</br> Libre (MEL)</h4>
+								<p> 
+									Única alternativa al régimen de</br>
+									autónomos para médicos que</br>
+									quieran ejercer por cuenta propia.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+						</div>
+					  </div> 
+				 
+					</div>
+				
+				</div>
+					  
+			</div>  
+			   
+		   
+		<!--- MENU TABLETS & PHONES --->   
+		   
+		<div class="header-bg-blue hidden-md hidden-lg">
+			<div class="container"> 
+				<div class="row"> 
+				
+					<div class="col-xs-4 text-center-xs">
+						<a href="#" class="logo"> <img alt="MutualMedica" alt="HomePage" src="includes/images/logo_z.png" /> </a> 
+					</div> 
+					
+					<div class="col-xs-8 text-center-xs"> 
+						<div class="div-user-menu clear">
+							<div> 
+								<a href="#" class="menu-btn right"> 
+									<i></i> 
+									<div class="menu-btn-text">Menu</div> 
+								</a> 
+							</div>
+							<div class="dropdown"> 
+							
+								<button type="submit" class="btn btn-rounded-blue-xs dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Te ayudamos</button>
+								 
+								<div class="dropdown-menu dropdown-menu-help-xs"> 
+									<div class="row row-table_ valign-top">
+										<div class="col-sm-8">
+											<h4>Atención Personalizada</h4><h4>901 215 216</h4> 
+											<p class="text-md text-blue"> Horario L-V de 9:00h a 21:00h. </br> <span class="text-nowrap">Precio llamada local.</span> </p> 
+											<ul class="ul-ayudamos">   
+												<li class="hidden">¿Buscas asesoramiento? Accede a </br> <a href="#" class="text-nowrap">nuestro formulario</a></li>
+												<li class="hidden">¿Quieres rescatar tu jubilación? </br>  <a href="#" class="text-nowrap">Te lo mostramos</a></li>
+												
+												<li>¿Tienes dudas? Consulta las </br> <a href="#" class="text-nowrap"> preguntas frecuentes</a></li>
+												<li>¿Buscas asesoramiento? Accede a </br> <a href="#" class="text-nowrap">nuestro formulario</a></li> 
+												<li>¿Quieres solicitar una prestación? </br> <a href="#" class="text-nowrap">Mira cómo tramitarla</a></li>
+												<li>¿Quieres mejorar la fiscalidad? </br> <a href="#" class="text-nowrap">Te lo mostramos</a></li>
+												<li>Consulta el </br> <a href="#" class="text-nowrap">Glosario asegurador</a></li>			
+											</ul> 
+										</div>  
+										<div class="col-sm-4">  
+											<a href="#" class="btn link-block">  
+												<img alt="MutualMedica" src="includes/images/i-help-1.png" height="65px">  
+												<div> Accede al Área </br> del mutualista </div> 
+											</a>
+										
+											<a href="#" class="btn link-block-blue mt-md">  
+												<img alt="MutualMedica" src="includes/images/i-help-2.png" height="65px">  
+												<div> Nuestras oficinas </div> 
+											</a> 
+										</div>
+									</div>
+								</div> 
+							 
+							</div>
+						</div>
+					</div> 
+					
+				</div>
+			</div> 
+		</div>	
+			
+			<div id="menu-lateral" class="menu-lateral"> 
+			
+				<div>
+					<div class="light-header">   
+						<a href="#"> <b>ESP</b> | CAT</a> 
+						<span class="phone"><i class="icon ion-ios-telephone"></i> 901 215 216</span> 
+						<i class="icon ion-close-round"></i> 
+					</div>
+				</div>
+				<ul>  
+					<li class="light-blue"><a href="#">Soy Mutualista <span class="right"><img alt="MutualMedica" src="includes/images/light-blue-user.jpg"></span></a></li>
+					
+					<li><a data-toggle="collapse" data-id="1">Mutual Médica <i class="icon ion-chevron-right"></i></a> </li>
+					<li><a data-toggle="collapse" data-id="2">Seguros <i class="icon ion-chevron-right"></i></a> </li>
+					<li><a href="#">Contacto <i class="icon ion-chevron-right"></i></a> </li>
+					<li><a data-toggle="collapse" data-id="3">Noticias <i class="icon ion-chevron-right"></i></a> </li>
+					<li><a href="#">Fundación <i class="icon ion-chevron-right"></i></a> </li>
+				</ul>
+				
+				<ul class="blue">			
+					<li><a data-toggle="collapse" data-id="4">Iniciar actividad privada <i class="icon ion-chevron-right"></i></a> </li>
+					<li><a data-toggle="collapse" data-id="5">Asegurar mis ingresos <i class="icon ion-chevron-right"></i></a> </li>
+					<li><a data-toggle="collapse" data-id="6">Asegurar a mi familia <i class="icon ion-chevron-right"></i></a> </li>
+					<li><a data-toggle="collapse" data-id="7">Preparar mi futuro <i class="icon ion-chevron-right"></i></a> </li>
+					<li><a data-toggle="collapse" data-id="8">Primeros pasos como médico <i class="icon ion-chevron-right"></i></a> </li> 
+				</ul> 
+				
+			</div>
+		  
+			<div class="menu-lateral-content">
+			
+				<div class="container">
+			
+				  <div class="menu-lateral-tab-pane" id="menu-lateral-pane-1"> 
+				  
+					<a data-toggle="collapse" class="light-gray" href="#"> <i class="icon ion-chevron-left"></i> Mutual Médica </a> 
+					
+					<div class="ph-lg">
+						<div class="row row-line"> 
+							<div class="col-sm-6">
+								<h4>La mutualidad de los médicos</h4>
+								<p>
+									Conoce todo lo que puede hacer la</br>
+									mutualidad por ti, por tu carrera</br>
+									profesional y por tu familia.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>Por qué ser Mutualista</h4>
+								<p>
+									Sólo por ser Mutualista podrás disfrutar</br>
+									de un gran número ventajas pensadas</br>
+									para ti y los tuyos.
+								</p>
+								<a href="#" class="link"> Descúbrelas aquí </a>
+							</div>
+							<div class="col-sm-12">
+								<h4>También puede interesarte...</h4> 
+								<ul class="arrow-gray">
+									<li><a href="#">Órganos de gobierno</a></li>
+									<li><a href="#">Informes y documentos</a></li>
+									<li><a href="#">Casa del médico</a></li>
+								</ul> 
+							</div>  
+						</div>
+					</div>
+				  
+				  </div> 
+				  
+				  <div class="menu-lateral-tab-pane" id="menu-lateral-pane-2">
+				  
+					<a data-toggle="collapse" class="light-gray" href="#"> <i class="icon ion-chevron-left"></i> Seguros </a> 
+					
+					<div class="ph-lg">
+						<div class="row">
+							<div class="col-sm-7">
+								<ul class="line-gray">   
+									<li><a href="#">Alternativa a Autónomos</a></li>
+									<li><a href="#">Incapacidad Laboral Temporal</a></li>
+									<li><a href="#">Incapacidad Profesional Permanente</a></li>
+									<li><a href="#">Seguro de Dependencia</a></li> 
+									<li><a href="#">Seguro Vida-Ahorro</a></li>	 
+									
+									<li><a href="#">Multi-Vida</a></li>
+									<li><a href="#">Orfandad</a></li>
+									<li><a href="#">Estudios garantizados</a></li>
+									<li><a href="#">Plan Previsión Asegurado Mutual</a></li> 
+									<li><a href="#">Seguro Jubilación Mutual</a></li>	 
+									
+									<li><a href="#">Seguro Ahorro-Inversión</a></li>
+									<li><a href="#">Seguro Ahorro-Garantizado</a></li>
+									<li><a href="#">Mutualista Joven</a></li>
+									<li><a href="#">Seguro Jubilación Ahorro Fiscal 105</a></li> 						
+								</ul>
+							</div>
+							<div class="col-sm-5">
+								<h4>Médico de Ejercicio</br> Libre (MEL)</h4>
+								<p> 
+									Única alternativa al régimen de</br>
+									autónomos para médicos que</br>
+									quieran ejercer por cuenta propia.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+						</div>
+					</div>
+				  
+				  </div> 
+			
+				  <div class="menu-lateral-tab-pane" id="menu-lateral-pane-3">
+				  
+					<a data-toggle="collapse" class="light-gray" href="#"> <i class="icon ion-chevron-left"></i> Noticias </a> 
+					
+					<div class="ph-lg">
+						<div class="row row-line"> 
+							<div class="col-sm-6">
+								<h4>Última hora</h4>
+								<p> 
+									Consulta las noticias y novedades</br>
+									que más pueden interesarte como</br>
+									mutualista.
+								</p>
+								<a href="#" class="link"> Quiero estar al día </a>
+							</div> 
+							<div class="col-sm-6">
+								<h4>Estudios y publicaciones</h4> 
+								<p>  
+									Aquí encontrarás documentos sobre el</br>
+									ámbito de los seguros de previsión</br>
+									social para médicos.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>Mutual Informa</h4> 
+								<p>  
+									Consulta desde aquí el boletín de</br>
+									información bimestral de Mutual</br>
+									Médica.
+								</p>
+								<a href="#" class="link"> Me interesa </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>Sala de prensa</h4> 
+								<p> 
+									Espacio para periodistas: con</br> 
+									contenidos y recursos de interés</br> 
+									para la labor informativa.
+								</p>
+								<a href="#" class="link"> Me interesa </a>
+							</div>
+							<div class="col-sm-12">
+								<h4>También puede interesarte...</h4> 
+								<ul class="arrow-gray">
+									<li><a href="#">Órganos de gobierno</a></li>
+									<li><a href="#">Informes y documentos</a></li>
+									<li><a href="#">Casa del médico</a></li>
+								</ul> 
+							</div> 	
+						</div>
+					</div>
+				  
+				  </div> 
+				  
+				  
+				  <div class="menu-lateral-tab-pane" id="menu-lateral-pane-4">
+				  
+					<a data-toggle="collapse" class="light-blue" href="#"> <i class="icon ion-chevron-left"></i> Iniciar actividad privada </a> 
+					
+					<div class="ph-lg"> 
+						<div class="row row-line">
+							<div class="col-sm-6">
+								<h4>La mutualidad de los médicos</h4>
+								<p>
+									Conoce todo lo que puede hacer la</br>
+									mutualidad por ti, por tu carrera</br>
+									profesional y por tu familia.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>Por qué ser Mutualista</h4>
+								<p>
+									Sólo por ser Mutualista podrás disfrutar</br>
+									de un gran número ventajas pensadas</br>
+									para ti y los tuyos.
+								</p>
+								<a href="#" class="link"> Descúbrelas aquí </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>También puede interesarte...</h4> 
+								<ul class="line-gray">
+									<li><a href="#">Órganos de gobierno</a></li>
+									<li><a href="#">Informes y documentos</a></li>
+									<li><a href="#">Casal del médico</a></li>
+								</ul> 
+							</div> 
+							<div class="col-sm-6"></div>
+						</div>
+					</div>
+				  
+				  </div> 
+				  
+				  <div class="menu-lateral-tab-pane" id="menu-lateral-pane-5">
+				  
+					<a data-toggle="collapse" class="light-blue" href="#"> <i class="icon ion-chevron-left"></i> Asegurar mis ingresos </a> 
+					
+					<div class="ph-lg"> 
+						<div class="row row-line">
+							<div class="col-sm-6">
+								<h4>Durante una baja laboral</h4>
+								<p> 
+									Te preocupa que un accidente o</br>
+									enfermedad inesperados puedan</br>
+									poner en riesgo tus ingresos.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>Protegiendo mi especialidad</h4>
+								<p>
+									Asegura tus ingresos en caso de que</br>
+									no puedas seguir ejerciendo tu</br>
+									especialidad médica.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>En caso de dependencia</h4> 
+								<p>
+									Contar con una renta vitalicia ante</br>
+									una situación de dependencia puede</br>
+									marcar un antes y un después.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+						</div>
+					</div>
+				  
+				  </div> 
+				  
+				  <div class="menu-lateral-tab-pane" id="menu-lateral-pane-6">
+				  
+					<a data-toggle="collapse" class="light-blue" href="#"> <i class="icon ion-chevron-left"></i> Asegurar a mi familia </a> 
+					
+					<div class="ph-lg"> 
+						<div class="row row-line">
+							<div class="col-sm-6">
+								<h4>Pensando en los míos</h4>
+								<p>  
+									Asegura la estabilidad económica de tu familia</br>
+									por si algún día faltas o te encuentras en una</br>
+									situación de incapacidad o invalidez.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>Que nada les falte a mis hijos</h4>
+								<p>
+									Protege la tranquilidad de tus hijos y</br>
+									los planes que tienes para ellos ante</br>
+									cualquier circunstancia.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div> 
+						</div>
+					</div>
+				  
+				  </div> 
+				  
+				  <div class="menu-lateral-tab-pane" id="menu-lateral-pane-7">
+				  
+					<a data-toggle="collapse" class="light-blue" href="#"> <i class="icon ion-chevron-left"></i> Preparar mi futuro </a> 
+					
+					<div class="ph-lg"> 
+						<div class="row row-line">
+							<div class="col-sm-6">
+								<h4>Me preocupa la jubilación</h4>
+								<p>  
+									Empieza a pensar en tu jubilación con</br>
+									los diferentes seguros que hemos</br>
+									preparado para ti.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>Me interesa ahorrar</h4>
+								<p>
+									Te ofrecemos diferentes formas de</br>
+									ahorro para que empieces a construir</br>
+									la vida que deseas.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>Portal de Jubilación del Médico</h4> 
+								<p>
+									Todo lo que necesitas saber sobre tu</br>
+									jubilación y cómo complementarla.</br></br>
+								</p>
+								<a href="#" class="link"> IrA al portal </a>
+							</div> 
+						</div>
+					</div>
+				  
+				  </div> 
+				  
+				  <div class="menu-lateral-tab-pane" id="menu-lateral-pane-8">
+				  
+					<a data-toggle="collapse" class="light-blue" href="#"> <i class="icon ion-chevron-left"></i> Primeros pasos como médico </a> 
+					
+					<div class="ph-lg"> 
+						<div class="row row-line">
+							<div class="col-sm-7">
+								<ul class="line-gray">   
+									<li><a href="#">Envejecimiento de la población</a></li>
+									<li><a href="#">Sistema de pensiones</a></li>
+									<li><a href="#">El médico y la jubilación</a></li> 	 
+									
+									<li><a href="#">Conceptos básicos sobre jubilación</a></li>
+									<li><a href="#">Regulación y Fiscalidad</a></li>
+									<li><a href="#">Hablamos con los colegios</a></li> 	 
+									
+									<li><a href="#">Qué opinan los médicos</a></li> 						
+								</ul>
+							</div>
+							<div class="col-sm-5">
+								<h4>Médico de Ejercicio</br> Libre (MEL)</h4>
+								<p> 
+									Única alternativa al régimen de</br>
+									autónomos para médicos que</br>
+									quieran ejercer por cuenta propia.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div> 
+						</div>
+					</div>
+				  
+				  </div> 
+				  
+				  
+				  <div class="menu-lateral-tab-pane" id="menu-lateral-pane-9"> 
+					<div class="ph-lg"> 
+						<div class="row">
+							<div class="col-sm-6">
+								<h4>Atención Personalizada</h4><h4>901 215 216</h4> 
+								<p class="text-md text-blue"> Horario L-V de 9:00h a 21:00h. </br> Precio llamada local. </p> 
+								<ul class="ul-ayudamos">    
+									<li> ¿Tienes dudas? 						</br><a href="#"> Consulta las preguntas frecuentes</a></li>
+									<li> ¿Buscas asesoramiento? 				</br><a href="#">Accede a nuestro formulario</a></li> 
+									<li> ¿Quieres solicitar una prestación? 	</br><a href="#">Mira cómo tramitarla</a></li>
+									<li> ¿Quieres mejorar la fiscalidad? 		</br><a href="#">Te lo mostramos</a></li> 			
+								</ul> 
+							</div>  
+							<div class="col-sm-6">  
+								<a href="#" class="btn link-block mt-lg">  
+									<img alt="MutualMedica" src="includes/images/i-help-1.png" height="65px">  
+									<div> Accede al Área </br> del mutualista </div> 
+								</a>
+							
+								<a href="#" class="btn link-block-blue mt-md">  
+									<img alt="MutualMedica" src="includes/images/i-help-2.png" height="65px">  
+									<div> Nuestras oficinas </div> 
+								</a> 
+							</div>
+						</div>
+					</div>
+				  
+				  </div> 
+				  
+				</div>
+			
+			</div>
+	  
+	</header>
+	           
+	<div class="content">
+	 
+		<div class="bg bg-bk-49"> 
+
+			<div class="container text-center">
+
+				<p class="text-white text-md">RESUELVE TUS DUDAS</p>
+ 
+				<h1 class="text-white text-lg mt-sm mb-lg">Preguntas Frecuentes</h1> 
+				
+				<div class="row row-inline mt-lg mb_md ph-lg-xs">
+
+                    <div class="col-sm wide-xs text-right text-center-md text-center-xs">
+
+                         <a class="btn btn-rounded-transp-md-2 auto-width wide-xs" href="#">Consulta preguntas frecuentes</a>     
+
+                    </div>
+
+					<div class="div-xxs"></div>
+							
+                    <div class="col-sm wide-xs text-left text-center-md text-center-xs">
+
+                        <a class="btn btn-rounded-transp-md auto-width wide-xs" href="#">Ir al glosario</a> 
+
+                    </div>
+
+                </div>
+ 		 
+			</div> 
+
+		</div>
+		  
+		<div class="bg bg-white ph-sm-xs">     
+ 
+			<div class="container text-center">
+			 
+				<div class="panel-group-filter">
+				
+					<a href="" data-filter="all" class="selected">Ver todas las preguntas</a> | 
+					<a href="" data-filter="1">Seguros</a> | 
+					<a href="" data-filter="2">Gestión y Trámites</a> | 
+					<a href="" data-filter="3">La Mutualidad de los Médicos</a> | 
+					<a href="" data-filter="4">Fundación</a>
+				
+				</div>
+				
+				<h3 class="mt-lg">¿Sobre qué tienes dudas?</h3>
+ 
+ 
+				<div class="pv-lg">
+				 
+					<select id="select-panel-group-filter" class="form-control select-rounded-gray-lg"> </select>
+					
+				</div>
+  
+  
+				<div class="text-left mb-lg">
+				
+					<div class="panel-group faq" id="accordion">
+					
+					
+						<div class="panel-set mb-lg" data-filter="1">
+				
+							<h1 class="text-center mb-lg">Preguntas sobre Seguros</h1> 
+							
+							<div class="panel-subset mb-lg" data-filter="1-1">
+				 
+								<h3>Alternativa a autónomos: Seguro del Médico Ejercicio Libre (MEL)</h3>
+							
+								<div class="text-left mt-md mb-lg">Ver <a href="#" class="link text-blue">“Iniciar consulta privada”.</a> </div>
+		 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-1" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cómo comunicar a Hacienda el inicio de la actividad privada? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-1" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>
+											Se deberá comunicar a Hacienda la declaración censal (modelo 036 o 037) con anterioridad al inicio de la actividad que se vaya a llevar a cabo, mediante el <a href="#" class="link text-blue">impreso 036 o 037</a> de alta censal.
+										</p>  
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-2" class="collapsed text-blue" aria-expanded="false"> 
+										  Los médicos que han comunicado a Hacienda el inicio de su actividad profesional por cuenta propia antes de 1995, ¿están obligados a estar en el RETA o en Mutual Médica? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-2" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>
+											Los médicos que iniciaron el ejercicio privado por cuenta propia antes de 1995 no tienen la obligación de estar dados de alta en el RETA o en Mutual Médica (alternativa a autónomos), siempre y cuando conserven el impreso censal de alta en el censo de empresarios anterior al año 1995 (modelo 036 o 037); a excepción de los médicos de Baleares, Cantabria y Cataluña, que sí deben estar dados de alta en una u otra opción, ya que la normativa de estas Comunidades Autónomas así lo han contemplado históricamente.
+										</p>  
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-3" class="collapsed text-blue" aria-expanded="false"> 
+										  Darse de alta en Mutual Médica o en el Régimen Especial de Trabajadores Autónomos (Seguridad Social) 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-3" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>
+											Con independencia de que se esté o no ya acogido al Régimen General de la Seguridad Social para el ejercicio de la actividad por cuenta ajena, una vez presentado el modelo 036 o 037 dispone del plazo de un mes para escoger entre las siguientes dos opciones para cubrir el ejercicio de la actividad profesional por cuenta propia:
+											<ol>
+												<li> Régimen Especial de Trabajadores Autónomos (RETA) de la Seguridad Social.</li>
+												<li> Mutual Médica, sistema alternativo al RETA, a través del Seguro MEL (Médico de Ejercicio Libre).</li>
+											</ol>
+											Una vez pasado este primer mes, si no se ha optado por ninguna de las dos opciones, la administración interpreta que está en el RETA. 
+										</p>  
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-4" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué es el RETA? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-4" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										  
+										<p>El Régimen Especial de Trabajadores Autónomos (RETA) es el régimen de la Seguridad Social para los trabajadores autónomos, que es diferente al régimen general, en el que se encuentran los trabajadores que trabajan por cuenta ajena. </p>
+										<p>Algunos colectivos profesionales, entre ellos los médicos, tienen la posibilidad de optar por su mutualidad profesional en lugar de darse de alta en el RETA. </p>
+										<p>Los médicos tienen a Mutual Médica como alternativa al RETA.</p>
+											 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-5" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué es la alternativa a autónomos? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-5" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Las mutualidades de previsión social, con una tradición muy arraigada en España desde hace muchos años, son entidades sin ánimo de lucro y con el objetivo de complementar las prestaciones que ofrece la Seguridad Social. </p>
+										<p>En España existen un grupo de mutualidades vinculadas a colectivos profesionales (médicos, abogados, ingenieros, arquitectos, etc.), que actúan como sustitutivas del Régimen Especial de Trabajadores Autónomos (RETA) y ofrecen a sus mutualistas la alternativa a dicho régimen con un conjunto de seguros que cumplen con los requisitos exigidos por la Ley 27/2011.</p> 
+										<p>Las profesiones liberales anteriormente citadas gozan de esta alternativa por motivos históricos. Antes de crearse la Seguridad Social, tal y como la conocemos hoy en día, ya existían estas mutualidades para dar cobertura a sectores profesionales muy determinados. Durante la década de los ‘60, se legislaron las prestaciones públicas creando la Seguridad Social y algunas profesiones liberales quedaron excluidas del RETA, teniendo la mutualidad de su colectivo como única opción para poder obtener una cobertura de previsión social. En el año 1995, con la Ley 30/1995 de Ordenación y Supervisión de los Seguros Privados, las mutualidades pasaron a ser una opción alternativa al RETA para aquellas profesiones liberales que, hasta ese momento, no habían tenido la elección de cotizar a la Seguridad Social.</p> 
+										<p>Mutual Médica, con más de 95 años de experiencia, es la alternativa al RETA de los médicos.</p>
+										 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-6" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué es el MEL? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-6" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>
+											Mutual Médica es la alternativa a autónomos de los médicos a través del Seguro del <a href="#" class="link text-blue">Médico de Ejercicio Libre (MEL)</a>, que cubre la incapacidad laboral, dependencia, vida y jubilación.
+										</p>  
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-7" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cuánto tiempo tengo para escoger entre el RETA o el Seguro del Médico Ejercicio Libre (MEL) de Mutual Médica, entidad alternativa al RETA? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-7" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>Se dispone del plazo de un mes, a contar desde la comunicación a Hacienda del inicio de la actividad profesional por cuenta propia, para optar por el RETA o por Mutual Médica. Pasado dicho plazo, sino se ha manifestado expresamente una decisión, la Administración de la Seguridad Social entenderá que se ha acogido al RETA. Una vez inscrito en el RETA, ya no podrá acogerse a la alternativa autónomos en toda su trayectoria profesional en el ejercicio por cuenta propia, en cambio, si opta por Mutual Médica, siempre podrá darse de alta en el RETA si le interesa más adelante.</p>  
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-8" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué ventajas tengo al contratar la alternativa a autónomos versus el RETA? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-8" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>Hay hasta <a href="" class="link text-blue">5 ventajas del Seguro del Médico de Ejercicio Libre</a>, la alternativa a autónomos, frente al Régimen Especial de Trabajadores Autónomos (RETA) de la Seguridad Social.</p>  
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-9" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cómo puedo contratar el Seguro MEL (Médico Ejercicio Libre)?
+								
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-9" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p> Para la contratación del producto MEL, seguro que cubre la alternativa al RETA, se debe cumplimentar la solicitud del MEL, que está compuesto por distintos seguros: 30 Primeros Días, Invalidez, Dependencia, Vida y Jubilación. Este trámite se puede realizar en cualquiera de las <a href="#" class="link text-blue">oficinas</a> de Mutual Médica o, si se prefiere, se puede realizar <a href="#" class="link text-blue text-italic">on line</a> o llamando al 901 215 216.</p>
+								
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-10" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Mutual Médica tramita el alta en Hacienda? ¿Necesitáis una copia del alta?
+								
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-10" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p> El alta en Hacienda es una gestión particular a cargo del médico. Mutual Médica puede solicitar una copia del documento de alta (modelo 036 o 037) para verificar que la fecha del alta en la mutualidad alternativa a autónomos se corresponde con el día del alta de la actividad por cuenta propia en la administración pública.</p>
+								
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-11" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Es obligatorio contratar todos los seguros del MEL?
+								
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-11" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p> Efectivamente, el MEL (Médico de Ejercicio Libre) es un conjunto de seguros que tiene como finalidad cubrir las contingencias necesarias para ofrecer la alternativa al Régimen Especial de Trabajadores Autónomos (RETA), por lo que no es posible prescindir de ninguno de los seguros que lo forman. Estas contingencias son, principalmente, incapacidad, vida, jubilación y dependencia. Sí se dan variaciones en función de la edad del médico.</p>
+								
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-12" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué actividad me cubre el Seguro del Médico de Ejercicio Libre (MEL)?
+								
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-12" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p> Como ya indica el nombre del Seguro: Médico de Ejercicio Libre, este producto cubre el ejercicio de la medicina por cuenta propia, pero no es adecuado en el caso de actividades que, aunque estén relacionadas con la medicina, no tienen que ver con la asistencia médica -como la docencia, el peritaje en entidades aseguradoras, la comercialización o venta de productos, ensayos con maquinaria u otros-.</p>
+								
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-13" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Puedo ampliar alguna de las coberturas de los Seguros del MEL (Médico de Ejercicio Libre)? 
+								
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-13" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p> El MEL está formado por una serie de seguros de obligada contratación para poder cubrir el ejercicio por cuenta propia con la alternativa al RETA. No obstante, en el momento de la contratación del Seguro del Médico de Ejercicio Libre (MEL) -o posteriormente-, el médico puede ampliar las coberturas de los Seguros que mejor se adapten a su situación personal y profesional, consiguiendo de esta manera una cobertura a medida, algo que no sucede con el Régimen Especial de Trabajadores Autónomos (RETA), que obliga a incrementar todas las coberturas por igual, sin ofrecer la posibilidad de ajustarlas en función de las necesidades y preferencias del médico.</p>
+								
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-14" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cuánto tiempo es necesario para tramitar el alta definitiva en la alternativa a autónomos?
+								
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-14" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p> Darse de alta en el Seguro del Médico Ejercicio Libre (MEL), cobertura alternativa a autónomos, no es automático: una vez cumplimentada y entregada la solicitud y la declaración de salud, se tramita la solicitud, que necesita la conformidad de la asesoría médica de Mutual Médica. Una vez admitida y aceptada, en unos pocos días la entidad pasa el primer recibo de cobro y el médico puede disponer del contrato. En aquellos casos en que la asesoría médica requiera ampliar información con documentación adicional, el tiempo de tramitación se prolongará unos días más.</p>
+								
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-15" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué día se pasa el cobro del MEL?
+								
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-15" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p> El MEL se cobra mensualmente entre el día 5 y el día 10 del mes en curso, a excepción del mes del alta en la mutualidad, cuando se pasa el recibo la misma semana en que se gestiona la solicitud.</p>
+								
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-16" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Puedo contratar el Seguro del Médico Ejercicio Libre (MEL) si trabajo en un hospital público o tengo contrato por cuenta ajena en la medicina privada?
+								
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-16" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p> El ejercicio de la profesión médica por cuenta ajena (tanto en un centro público como privado) es compatible con el ejercicio de la actividad por cuenta propia. Con el Seguro MEL se cubre la alternativa a autónomos necesaria para el ejercicio por cuenta propia, tanto si se está dado de alta en el régimen general de la Seguridad Social como si no. </p>
+								
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-17" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Haber optado por el Seguro del Médico Ejercicio Libre, alternativa al RETA de Mutual Médica, permite contratar personal?
+								
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-17" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>Sí, el hecho de haber elegido Mutual Médica como alternativa al RETA permite la contratación de personal administrativo, de diplomados en enfermería o incluso de otros compañeros médicos. En el momento de dar de alta a estos trabajadores en el correspondiente Régimen de la Seguridad Social tendrá que presentar un certificado de Mutual Médica conforme tiene el seguro alternativo a autónomos Médico Ejercicio Libre (MEL) y está al corriente de pago. Dicho certificado se puede obtener fácilmente en cualquier <a href="#" class="link text-blue">oficina de Mutual Médica</a>, a través de la <a href="#" class="link text-blue">Oficina Virtual</a> o bien llamando al 901 215 216.</p>
+										<p>Como socio de una sociedad profesional, ¿puedo elegir la alternativa al RETAque me ofrece Mutual Médica para cubrir mi actividad?</p>
+										<p>Los socios de sociedades profesionales constituidas para el ejercicio común de la actividad médica podrán optar por Mutual Médica, a través delSeguro del Médico Ejercicio Libre (MEL), como alternativa al alta en el Régimen Especial de Trabajadores Autónomos, siempre y cuando se cumplan determinados requisitos. La sociedad ha de tener la forma jurídica de sociedad profesional y el cargo de administrador no debe ser retribuido; además, el objeto social de la misma ha de ser única y exclusivamente médico. </p>
+										<p>La normativa y la casuística es compleja en el caso de socios que ejercen, también, cargo de administrador de la sociedad; en estos casos conviene consultar con un asesor especializado de Mutual Médica.</p>
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-18" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿El Seguro del Médico de Ejercicio Libre (MEL) da cobertura a la realización de una actividad profesional por cuenta propia en el extranjero?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-18" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p> El Seguro MEL opera como cobertura alternativa al Régimen Especial de Trabajadores Autónomos (RETA) en el territorio español, por lo que, en el caso de que el mutualista lleve a cabo la actividad por cuenta propia fuera del país, tendrá que afiliarse al Régimen Especial de Trabajadores Autónomos (RETA) de la Seguridad Social.</p>
+								
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-19" class="collapsed text-blue" aria-expanded="false"> 
+										  Si los ingresos que percibo por la actividad profesional por cuenta propia son inferiores al salario mínimo interprofesional, ¿debo contratar la alternativa a autónomos o inscribirme en el RETA?
+								
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-19" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p> Los médicos jubilados que ejercen por cuenta propia, con unos ingresos inferiores al salario mínimo interprofesional, no tienen la obligación de estar dados de alta en el RETA ni en la alternativa a autónomos que representa Mutual Médica.</p>
+										<p> En cambio, los médicos en activo que ejerzan por cuenta propia con carácter habitual deben darse de alta en el RETA o en Mutual Médica, independientemente del volumen de ingresos que generen. Solo están eximidos de esta obligación si se trata de una actividad puntual y esporádica.</p>
+										<p> La mayoría de sentencias y la interpretación de los juzgados de lo social hacen especial mención al criterio de la habitualidad, por lo que no solo hay que tener en cuenta el volumen de ingresos a la hora de tener cubierta la actividad por cuenta propia. </p>
+										<p> La cifra anual y mensual del salario mínimo profesional se actualiza cada año por parte de la Administración pública.</p>
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-20" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Puedo capitalizar el paro si opto por la alternativa a autónomos que representa Mutual Médica?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-20" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Sí, puedes capitalizar el paro si vas a abrir una consulta privada y optas por la alternativa al RETA para cubrir tu actividad por cuenta propia.</p>
+										<p>La capitalización del paro es un trámite que realiza la Tesorería de la Seguridad Social a través del organismo SEPE, que establece los requisitos y los trámites a seguir para presentar ante la Administración el expediente correspondiente.Si vas a capitalizar el paro en forma de capital único y destinar ese importe a iniciar un proyecto profesional de abrir una consulta privada, te recomendamos que consultes en el SEP si se te permite darte de alta en Mutual Médica (alternativa al RETA).En caso afirmativo, lo mejor es que formalices la solicitud del seguro que cubre la actividad por cuenta propia, ya que, seguramente, la Administración te solicitará un certificado conforme te has dado de alta.</p>
+										<p>En numerosas ocasiones, en el momento en el que se solicita la capitalización del paro, la Administración tramita de oficio el alta en el Régimen Especial de Trabajadores Autónomos de la Seguridad Social (RETA). Si tu opción es la alternativa al RETA (Mutual Médica), has de vigilar que no te den de alta en el RETA, ya que, si no, ya no podrás cambiarte nunca a Mutual Médica a lo largo de toda tu vida profesional.</p>
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-21" class="collapsed text-blue" aria-expanded="false"> 
+										  Una vez jubilado, ¿puedo darme de alta en la alternativa a autónomos con el Seguro MEL?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-21" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p> Una vez jubilado de la actividad pública o por cuenta ajena, el médico puede iniciar o continuar su actividad por cuenta propia y contratar el Seguro MEL, cobertura alternativa al RETA, siempre y cuando no haya estado previamente dado de alta en el RETA. Es totalmente compatible la jubilación en el Régimen General de la Seguridad Social, y el correspondiente cobro de la pensión pública, con el ejercicio de la actividad profesional por cuenta propia.</p>
+										<p> No obstante, en el caso de que los ingresos por el ejercicio de la actividad privada sean inferiores al salario mínimo interprofesional, no es obligatorio cubrir la actividad por cuenta propia ni dándose de alta en el RETA ni contratando el Seguro MEL que ofrece la cobertura alternativa al autónomos.</p>
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-22" class="collapsed text-blue" aria-expanded="false"> 
+										  Si me doy de baja del Seguro MEL al dejar el trabajo por cuenta propia, ¿puedo reactivarlo cuando vuelva a iniciar actividad privada?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-22" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p> Siempre y cuando el médico no haya cursado el alta en el Régimen Especial de Trabajadores Autónomos (RETA) en ningún momento, podrá solicitar nuevamente el alta en la alternativa a autónomos con la contratación del Seguro MEL, aunque sin conservar las condiciones que tenía anteriormente, sino que se adaptarán a las que existan en el momento de la nueva contratación.</p>
+										<p> No obstante, se recomienda que los mutualistas consulten con su asesor de Mutual Médica antes de darse de baja en la entidad por cese de la actividad privada, para poder disponer de un asesoramiento personalizado que le indique la mejor solución y evite que más adelante pueda perdercondiciones favorables como bonificaciones, etc.</p>
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-23" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué pasa si me doy de baja dela alternativa a autónomo que representa el Seguro MEL?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-23" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p> 
+											Cuando un médico se da de baja del Seguro MEL-que ofrece la cobertura que da la alternativa al RETA- se le dejan de pasar los recibos mensuales correspondientes a partir del mes siguiente, pero continúa siendo mutualista de la entidad. Los derechos consolidados los tiene capitalizados en el Seguro de Jubilación, que forma parte del Seguro MEL, hasta que el seguro llegue a vencimiento o hasta que se cumpla la contingencia de jubilación, enfermedad grave o paro de larga duración, momentos en los que podrá disponer de dicho capital.
+										</p>
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-24" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Tengo contratado el RETA con Mutual Médica?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-24" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p> 
+											El RETA es el Régimen Especial de Trabajadores Autónomos de la Seguridad Social. Mutual Médica no es el RETA, sino la alternativa al mismo, a través del Seguro del Médico de Ejercicio Libre (MEL). Si trabajas por cuenta propia, la normativa obliga a  estar dado de alta en el RETA o en Mutual Médica.
+										</p>
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-25" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cómo acredito que tengo la alternativa al RETA a través del Seguro MEL de Mutual Médica?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-25" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p> Para acreditar que está dado de alta en la mutualidad alternativa al RETA, Mutual Médica, puede solicitar el certificado del Seguro MEL a través de la <a href="#" class="link text-blue">Oficina Virtual</a> o llamando al 901 215 216. Para obtenerlo, debe tener contratado este seguro y estar al corriente de pago de todas las cuotas.</p>
+										<p> En el caso de que esté en trámites de contratación del Seguro MEL, se le expedirá un certificado en el que se hará constar que ha tramitado la solicitud y que se encuentra en fase de tramitación del alta en la alternativa a autónomos.</p>
+
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+							</div>
+							
+							<div class="panel-subset mb-lg" data-filter="1-2">
+				 
+								<h3>Mutualista Joven</h3>
+							
+								<div class="text-left mt-md mb-lg">Ver <a href="#" class="link text-blue">“Mutualista Joven”.</a> </div>
+								
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-2-1" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Es necesario tener algún otro Seguro de Mutual Médica para poder contratar el Seguro Mutualista Joven? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-2-1" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>El Seguro Mutualista Joven es independiente del resto de seguros que comercializa Mutual Médica, con lo que para disfrutarlo no es obligatorio tener contratado algún otro seguro.</p>
+								 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-2-2" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué tengo que hacer para dar de baja el Seguro Mutualista Joven una vez finalice al año de gratuidad? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-2-2" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>Un mes antes de que finalice la gratuidad, el mutualista puede dar de baja el seguro a través de la <a href="#" class="link text-blue">Oficina Virtual</a> o bien enviando una carta firmada a cualquiera de las oficinas o mediadores de Mutual Médica.</p>
+  
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+							</div>
+							 
+							<div class="panel-subset mb-lg" data-filter="1-3">
+				 
+								<h3>Seguro de Incapacidad Laboral</h3>
+							
+								<div class="text-left mt-md mb-lg">Ver <a href="#" class="link text-blue">“Incapacidad Laboral”.</a> </div>
+								
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-3-1" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Tengo que quedarme inválido para cobrar la prestación?  
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-3-1" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>No, la cobertura de este Seguro abarca cualquier incapacidad laboral con carácter temporal, que le impida ejercer su profesión. Este Seguro cubre también una situación de Incapacidad Absoluta y Permanente para el ejercicio de la profesión médica, en cuyo caso continuaría percibiendo la prestación correspondiente hasta la edad de vencimiento del contrato.</p>
+								 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-3-2" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué período de la baja laboral cubre este Seguro?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-3-2" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>Este Seguro cubre todo el período en que el médico esté de baja laboral, desde el momento de la baja y hasta su alta definitiva. En el caso de encontrarse en una situación de Incapacidad Absoluta y Permanente, cubre hasta la edad de vencimiento del contrato. </p>
+								 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-3-3" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Quedan cubiertas todas las patologías?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-3-3" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>Como en todos los seguros personales, existen algunas patologías que no quedan cubiertas y que se pueden consultar en el reglamento correspondiente al Seguro.Puede consultarlo en su <a href="#" class="link text-blue">área de Mutualista</a>.</p>
+								 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-3-4" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Las enfermedades mentales están cubiertas?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-3-4" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>Las patologías mentales quedan cubiertas desde el momento en que se pasa de una Incapacidad Temporal a una Incapacidad Absoluta y Permanente.</p>
+								 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-3-5" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué es una exclusión?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-3-5" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>Una exclusión es una indicación específica sobre un determinado riesgo, según la cual no está cubierto por el contrato de Seguro o no son de aplicación ciertas garantías en determinadas circunstancias, según conste en las condiciones generales, especiales y/o particulares del contrato.</p>
+										<p>En el momento de tramitar la solicitud del Seguro de Invalidez es necesario rellenar una Declaración de Salud, que es evaluada por la entidad para determinar si la patología o patologías preexistentes pueden o no quedar cubiertas por el Seguro. No se formaliza el contrato sin el consentimiento del mutualista en caso de existir una exclusión de la patología comunicada.</p>
+										 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-3-6" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Puedo pedir la revisión de una exclusión?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-3-6" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>Siempre que se desee, se puede solicitar la revisión de una exclusión, adjuntando un escrito de solicitud de revisión y el motivo que la justifique, así como los informes médicos correspondientes que lo argumenten y avalen.</p>
+								 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-3-7" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué es una carencia?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-3-7" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>Una carencia es cuando se debe cumplir un período determinado de tiempo con el seguro contratado para que pueda disfrutar de determinadas coberturas.  En el caso del Seguro de Invalidez de Mutual Médica existe una carencia de 8 meses para cubrir la gestación.</p>
+  
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+							</div>
+							
+							<div class="panel-subset mb-lg" data-filter="1-4">
+				 
+								<h3>Seguro de Incapacidad Profesional Permanente (IPP)</h3>
+							
+								<div class="text-left mt-md mb-lg">Ver <a href="#" class="link text-blue">“Seguro de Incapacidad Profesional Permanente”.</a> </div>
+								
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-4-1" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué significa Incapacidad Profesional Permanente?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-4-1" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>El reglamento de este Seguro define como Incapacidad Profesional Permanente aquella situación física o psíquica irreversible que determine la imposibilidad total y permanente del asegurado para el ejercicio de su especialidad o actividad médica habitual.</p>
+								 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-4-2" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Me cubre en caso de romperme un brazo, por ejemplo?  
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-4-2" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>No. El Seguro de Incapacidad Profesional Permanente tiene como finalidad abonar un capital ante una situación de Incapacidad Profesional Permanente, no recuperable o reversible, por lo que la fractura de un brazo no queda cubierta, al tratarse de una incapacidad temporal. Para estas situaciones, Mutual Médica dispone del Seguro de Incapacidad Laboral.</p>
+								 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-4-3" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Se puede cobrar el capital en forma de renta? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-4-3" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>No; el cobro de la prestación del Seguro de Incapacidad Profesional Permanente solo contempla la posibilidad de un capital.</p>
+  
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+							</div>
+							
+							<div class="panel-subset mb-lg" data-filter="1-5">
+				 
+								<h3>Seguro de Dependencia</h3>
+							
+								<div class="text-left mt-md mb-lg">Ver <a href="#" class="link text-blue">“Seguro de Dependencia”.</a> </div>
+								
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-5-1" class="collapsed text-blue" aria-expanded="false"> 
+										  En caso de dependencia, ¿quedaría eximido de pagar cuotas? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-5-1" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>Efectivamente, a partir del momento en el que el mutualista comienza a percibir la prestación de Dependencia, independientemente del grado de la misma, se le exime del pago de las cuotas correspondientes del Seguro de Dependencia. No obstante, en el supuesto de que el mutualista deje de encontrarse en situación de dependencia en algún momento, las cuotas del Seguro se reactivarán teniendo que volver a ser abonadas por el mutualista.</p>
+								 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-5-2" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Hasta qué edad puedo cobrarla prestación de Dependencia? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-5-2" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>Tanto la duración del Seguro como de la prestación son de carácter vitalicio, por lo que el cobro de la prestación solo cesará o bien porque el mutualista deja de estar en situación de dependencia o en caso de defunción del mismo.</p>
+								 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-5-3" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿El Seguro cubre los tres grados de dependencia? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-5-3" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>Efectivamente, el Seguro de Dependencia de Mutual Médica está ajustado a la Ley de Dependencia, por lo que el mutualista tiene la total tranquilidad de poder percibir una prestación en caso de encontrarse en cualquiera de las situaciones de dependencia recogidas en la normativa: moderada, severa y gran dependencia. </p>
+								 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-5-4" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cuál es la cobertura máxima que puedo contratar? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-5-4" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>La cobertura máxima que se puede contratar para el Seguro de Dependencia es de 1.500 € al mes. La edad máxima para poder solicitar la contratación del Seguro de Dependencia es de 65 años.</p>
+ 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+		  
+							</div>
+							
+							<div class="panel-subset mb-lg" data-filter="1-6">
+				 
+								<h3>Seguro de Vida-Ahorro</h3>
+							
+								<div class="text-left mt-md mb-lg">Ver <a href="#" class="link text-blue">“Seguro de Vida-Ahorro”.</a> </div>
+								
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-6-1" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Puedo rescatar el Seguro de Vida-Ahorro? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-6-1" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>Sí, el Seguro de Vida-Ahorro es rescatable; a excepción de cuando forma parte del Seguro MEL para cubrir el ejercicio por cuenta propia con la alternativa a autónomos, en cuyo caso solo puede recatarse en el momento de la jubilación, ya que se trata de un Seguro cuyas aportaciones son deducibles.</p>
+  
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+							</div>
+							
+							<div class="panel-subset mb-lg" data-filter="1-7">
+				 
+								<h3>SeguroMulti-Vida</h3>
+							
+								<div class="text-left mt-md mb-lg">Ver <a href="#" class="link text-blue">“SeguroMulti-Vida”.</a> </div>
+								
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-7-1" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿En caso de cobrar un capital por Incapacidad Absoluta y Permanente, podré cobrar luego un capital por defunción?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-7-1" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>No, el capital que se cobra en caso de una Incapacidad Absoluta o Incapacidad Profesional Permanente en nuestro seguro Multi-Vida es un anticipo del capital asegurado por defunción.</p>
+										<p>Hay que tener en cuenta que las coberturas de este seguro se pueden complementar con nuestro seguro de Incapacidad Profesional Permanente.</p>
+										 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-7-2" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Hasta qué edad me cubre este seguro? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-7-2" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+									
+										<p>En caso de defunción el límite de cobertura es hasta los 70 años y en caso de Incapacidad Absoluta o Incapacidad Profesional Permanente el límite es hasta los 65 años.</p>
+										<p>La edad máxima para contratar o ampliar es de 65 años en caso de defunción y 55 para IPA o IPP.</p>
+  
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+							</div>
+							
+							<div class="panel-subset mb-lg" data-filter="1-8">
+				 
+								<h3>Seguro de Orfandad</h3>
+							
+								<div class="text-left mt-md mb-lg">Ver <a href="#" class="link text-blue">“Seguro de Orfandad”.</a> </div>
+								
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-8-1" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿La cuota del Seguro de Orfandad siempre es la misma o crece en función de la edad del niño?  
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-8-1" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+									
+										<p>En el Seguro de Orfandad la prima o cuota se calcula independientemente de la edad del asegurado (mutualista) y del beneficiario (hijo), por lo que la prima permanece constante a lo largo de la duración de todo el contrato, a no ser que quiere ampliar la cobertura.</p>
+								 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-8-2" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Solo cubre mi defunción?  
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-8-2" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+									
+										<p>No, el Seguro de Orfandad de Mutual Médica no solo prevé el cobro de la prestación en caso de defunción del mutualista, sino que también contempla cubrir al beneficiario (hijo) en caso de que el asegurado (mutualista) quede en situación de Incapacidad Absoluta y Permanente.</p>
+  
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+							</div>
+							
+							<div class="panel-subset mb-lg" data-filter="1-9">
+				 
+								<h3 class="mb-lg">Seguro de Estudios Garantizados</h3> 
+								
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-9-1" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cómo funciona el Seguro de Estudios garantizados?
+								
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-9-1" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+									
+										<p>Este producto lo componen dos de nuestros seguros: Seguro de Orfandad y el Seguro de Ahorro Garantizado, pudiendo contratar las garantías de cada uno según tus necesidades.</p>
+										<p>Recomendamos que se realice el correspondiente estudio con un asesor para optimizar las coberturas de este Seguro.</p>
+  
+									</div>
+									  
+								  </div>
+									
+								</div>
+								  
+							</div>
+							
+							<div class="panel-subset mb-lg" data-filter="1-10">
+				 
+								<h3>Seguros de Jubilación</h3>
+							
+								<div class="text-left mt-md mb-lg">Ver <a href="#" class="link text-blue">“Me preocupa mi jubilación”.</a> </div>
+								
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-10-1" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿A partir de cuándo puedo cobrar mi Seguro de Jubilación?  
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-10-1" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+									
+										<p>Todos los Seguros de Jubilación se pueden empezar a cobrar desde el momento de la jubilación. No obstante, la normativa establece unos supuestos de liquidez o cobro excepcionales como son los siguientes: en caso de Incapacidad Absoluta, por una enfermedad grave y cuando se está en una situación de paro de larga duración.</p>
+								 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-10-2" class="collapsed text-blue" aria-expanded="false"> 
+										  Si decido cobrar el Seguro de Jubilación a los 65 años por no ejercer ninguna actividad por cuenta propia, ¿cobraré el capital garantizado de los 70? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-10-2" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+									
+										<p>No. El Seguro de Jubilación es un seguro de capitalización, por lo que el capital calculado a los 70 años está basado en la premisa de haber realizado aportaciones hasta justo esa misma edad. Si usted desea percibir su Seguro de Jubilación a partir de los 65 años, el cálculo del capital garantizado se efectuará en base a las aportaciones realizadas hasta esa edad en concreto.</p>
+								 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-10-3" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿De qué maneras puedo cobrar el Seguro de Jubilación? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-10-3" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>Los Seguros de Jubilación de Mutual Médica pueden cobrarse en forma de capital, en forma de renta o una combinación de ambas. De todos modos, la edad máxima establecida para cobrar la renta son los 90 años.</p>
+								 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-10-4" class="collapsed text-blue" aria-expanded="false"> 
+										  En caso de fallecer una vez haya empezado a cobrar la prestación, ¿qué pasa? ¿La cobran mis beneficiarios?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-10-4" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>En el supuesto de cobrar el Seguro de Jubilación en forma de renta y de producirse la defunción del mutualista, los beneficiarios continuarán cobrando la prestación por la parte de tiempo que restaba y repartida entre cada uno de los beneficiarios designados.</p>
+								 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-10-5" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué pasa si me jubilo pero sigo trabajando?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-10-5" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>Muchos médicos jubilados del Régimen General de la Seguridad Social compatibilizan a día de hoy el cobro del 100% de su pensión con el ejercicio por cuenta propia de la actividad de asistencia médica utilizando Mutual Médica como alternativa al RETA. Se trata de una ventaja más del carácter privado de la cobertura que ofrece la mutualidad de los médicos (además de no sumarse al tope máximo de pensión pública a cobrar).</p>
+										<p>Así, una vez alcanzada la condición de pensionista, los médicos pueden seguir haciendo aportaciones a los seguros de Mutual Médica para cubrir las contingencias de jubilación, muerte, invalidez y dependencia, que son desgravables en el IRPF con los mismos límites y condiciones que las aportaciones a planes de pensiones y planes de previsión social asegurados (PPA).</p>
+ 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								
+								
+								
+								  
+		  
+							</div>
+							
+							<div class="panel-subset mb-lg" data-filter="1-11">
+				 
+								<h3 class="mb-lg">Seguro de Ahorro Garantizado / Seguro de Ahorro Inversión</h3> 
+								
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-11-1" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Los seguros de ahorro son desgravables?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-11-1" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>No, al ser un seguro de ahorro, tributaran los beneficios obtenidos y lo harán como rendimientos del capital mobiliario. En todo caso, quedará exenta de tributación la aportación realizada.</p>
+								 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-11-2" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Puedo retirar mi dinero cuando quiera?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-11-2" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>Una vez transcurrido un año desde el inicio de la cobertura y satisfecha la primera anualidad completa de cuotas, esta prestación da derecho a rescate.</p>
+								 
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_1-11-3" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué significa que mi seguro tenga Participación en Beneficios?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_1-11-3" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p>La Participación en Beneficios es la distribución entre los asegurados que al acabar un ejercicio hace la entidad aseguradora de una parte de los beneficios obtenidos en su gestión.</p>
+  
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+							</div>
+							
+						</div>
+					
+					
+						<div class="panel-set mb-lg" data-filter="2">
+				
+							<h1 class="text-center mb-lg">Gestión y trámites</h1> 
+				
+							<div class="panel-subset mb-lg" data-filter="2-1">
+				 
+								<h3>Gestión y trámites</h3> 
+				  
+								<div class="text-left mt-md mb-lg">Ver documentación necesaria para su solicitud en <a href="#" class="link text-blue">“Cómo tramitar una prestación”.</a> </div>
+								
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-1" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cómo y cuándo se efectúa el pago de la prestación por Incapacidad? ¿Qué cantidad me corresponde?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-1" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>El pago se realiza a través de transferencia en la cuenta bancaria que consta en nuestra base de datos. Se aprobará el pago cuando se haya recibido la documentación correspondiente y sea aprobada la prestación por parte de la entidad.</p>
+										<p>Para incapacidades inferiores al mes, se deberá enviar la baja y el alta del proceso y, una vez aprobado el pago, se abonará la prestación.</p>
+										<p>Si se trata de una incapacidad de una duración superior al mes, será necesario ratificar la incapacidad mensualmente. Revisada la documentación, se procederá a pagar la prestación correspondiente.</p>
+										<p>La prestación se pagará en base a la cobertura contratada en los Seguros de 30 Primeros Días e Invalidez.</p>
+
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-2" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cómo ratificar las incapacidades?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-2" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p> El médico que trata al mutualista deberárellenar el documento facilitado por Mutual Médica en la carta de apertura del expediente. También sirve sise nos envía un informe similar o comunicado médico de la Seguridad Social, donde conste la situación de incapacidad laboral.</p>
+									
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-3" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cómo y cuándo se efectúa el pago de los Seguros por defunción? ¿Qué cantidad me corresponde?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-3" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Una vez recibida la documentación y verificados los beneficiarios -consulte “<a href="#" class="link text-blue">Cómo tramitar una prestación</a>”-, si tributa por IRPF –cuando las aportaciones han sido objeto de desgravación por parte del mutualista-, el pago se efectuará por transferencia bancaria a la cuenta de los beneficiarios, y si tributa por sucesiones –cuando las aportaciones no han sido objeto de desgravación fiscal por parte del mutualista-, facilitaremos un certificado a los beneficiarios con el resumen de los capitales que han de cobrar,para que puedan liquidar el impuesto de sucesiones. Cuando recibamos el comprobante de la liquidación de este impuesto, se hará la correspondiente transferencia bancaria.</p>
+										<p>El pago se efectuará en base a la cobertura contratada y al porcentaje que le corresponde como beneficiario.</p>
+
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-4" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Por qué ha aumentado la cantidad de mi recibo?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-4" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										  <p>El incremento del recibo se puede deber a un cambio de tramo de su edad actuarial,lo que ya se comunica en el reglamento del seguro que usted ha contratado. Estos incrementos de las cuotas se aplican entodos los seguros que están relacionados con los cálculos actuariales.</p>
+								
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-5" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué es la edad actuarial?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-5" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>La edad actuarial no siempre se corresponde con la edad real del asegurado, sino que se calcula teniendo en cuenta el cumpleaños más próximo a la fecha de efecto de la póliza contratada, sea este cumpleaños tanto anterior como posterior (aunque aún no se haya cumplido). A partir de la edad actuarial, y de otros criterios técnicos, se calcula el riesgo a la hora de contratar un seguro y se determina la cantidad de las primas a pagar.</p>
+										<p>Por ejemplo,dos médicos que tengan 59 años y hayan nacido el mismo año: a uno le faltan más de 6 meses para cumplir los 60, con lo cual su edad actuarial es de 59 años, y al otro le faltan menos de 6 meses para los 60, así que su edad actuarial es de 60.</p>
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-6" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cómo puedo cambiar mis datos personales: dirección, domiciliación bancaria, etc.?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-6" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Puedes cambiar tus datos personales a través de diferentes canales: por teléfono, en el 901 215 216; por email, en <a href="mailto:infomutual@mutualmedica.com" class="link text-blue">infomutual@mutualmedica.com</a>, o puedes hacerlo directamente tú mismo accediendo a la <a href="#" class="link text-blue">Oficina Virtual</a>, en el apartado “Mis datos”.</p>
+								
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-7" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cómo solicito un certificado, una vida laboral y qué tipo de cotización hago en la Seguridad Social?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-7" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>En Mutual Médica le podemos facilitar un certificado conforme tiene la alternativa a autónomos, si realmente tiene contratado este Seguro. Sin embargo, nosotros no podemos facilitarle una vida laboral, ya que somos una entidad independiente de la Tesorería General de la Seguridad Social y sus aportaciones a la mutualidad no representan una cotización en la Seguridad Social. Toda esta documentación debe solicitarla en las diferentes delegaciones de la Seguridad Social.</p>
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-8" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cómo solicitar el certificado fiscal de las aportaciones realizadas en el ejercicio?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-8" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Puedes obtener el certificado fiscal en la <a href="#" class="link text-blue">Oficina Virtual</a> o bien llamando al 901 215 216. En este documento se detallan el total de aportaciones que se han realizado en el correspondiente ejercicio fiscal. Estará disponible en la Oficina Virtual desde el comienzo de la campaña de la Declaración de la Renta. También puede obtener duplicados del certificado de ejercicios anteriores.</p>
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-9" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cómo cumplimentar el documento del tratamiento fiscal de las prestaciones?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-9" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Para aclarar dudas fiscales y tu mutualidad, te recomendamos que visites la página “<a href="#" class="link text-blue">Cómo mejorar mi fiscalidad</a>”.</p>
+										<p>En la Declaración de la Renta, el tratamiento fiscal de las prestaciones cambia en función de si el mutualista se ha desgravado previamente las aportaciones realizadas a Mutual Médica o no. Así, en el caso de que las aportaciones hayan sido objeto de desgravación fiscal, las prestaciones tributan como rendimiento del trabajo (IRPF). En el caso contrario, tributará por Sucesiones como rendimiento mobiliario.</p>
+										<p>Además, en el modelo azul que se te facilitará, únicamente deberás indicar la situación fiscal en la que te encuentras y si existe algún tipo de discapacidad.</p>
+
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-10" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cómo solicitar el certificado de prestaciones pagadas por Mutual Médica?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-10" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Puedes obtener el certificado en la <a href="#" class="link text-blue">Oficina Virtual</a> o bien llamando al 901 215 216. En este documento se detallan el total de prestaciones que ha cobrado de Mutual Médica en el correspondiente ejercicio.</p>
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-11" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cómo solicitar el certificado de cobertura de asistencia en viaje?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-11" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Puedes obtener el certificado en la <a href="#" class="link text-blue">Oficina Virtual</a> o bien llamando al 901 215 216. En caso de siniestro deberá ponerse en contacto en el teléfono que se le indique de urgencia en el mismo certificado de asistencia en viaje.</p>
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-12" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Por qué sigo recibiendo cartas y otras comunicaciones de la entidadsi me he dado de baja de Mutual Médica?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-12" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>A pesar de haber tramitado la baja de tus Seguros en Mutual Médica, tienes en la entidad un capital aportado a un seguro de ahorro (jubilación, inversión…), que te pertenece aunque ya no hagas aportaciones y que se mantiene hasta que llegue el momento de cobrarlo (fecha de efecto o vencimiento del contrato). Esto representa que continúas siendo mutualista.</p>
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-13" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué me corresponde por una baja por paternidad?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-13" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>La prestación de baja por paternidad de Mutual Médica es un pago de un total de 15 días del importe contratado en la póliza de 30 Primeros Días, más 4 días más por nacimiento. Recuerde solicitar también el <a href="#" class="link text-blue">Premio Natalidad</a>.</p>
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-14" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cómo puedo tramitar la baja por riesgo laboral durante el embarazo?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-14" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Mutual Médica le tramita la baja por riesgo laboral durante el embarazo en caso de contar con las coberturas de correspondientes. Para tramitarla requerimos la resolución de la Mutua de Trabajo. Recuerde solicitar también el <a href="#" class="link text-blue">Premio Natalidad</a>.</p>
+								
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-15" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Dónde se solicita una fe de vida?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-15" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										
+										<p> Puedes solicitar una fe de vida en tu colegio de médicos o en tu entidad financiera.</p>
+								
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-16" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Con cuánto tiempo de antelación debo solicitar la baja de un Seguro de Mutual Médica para que no me lo cobren en el próximo recibo?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-16" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Debe realizar la solicitud de baja el día 23 del mes en curso, para que podamos recibir y tramitar la documentación antes de la presentación del recibo pertinente al mes siguiente.</p>
+								
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-17" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Puedo solicitar factura de las aportaciones realizadas?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-17" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Mutual Médica no está autorizada a emitir facturas por las cuotas pagadas por los mutualistas. La mutualidad informa a Hacienda de las aportaciones realizadas a final de año por sus mutualistas, por lo que si necesita conocer el importe total pagado a la entidad le servirá el correspondiente certificado fiscal, donde se detalla el total de las aportaciones que se han realizado en el correspondiente ejercicio fiscal.</p>
+										<p>Si necesita el detalle de las aportaciones pagadas al trimestre, tendrá que consultar el importe en su entidad bancaria, ya que los recibos que paga a Mutual Médica están domiciliados en su cuenta corriente.</p>
+										
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-18" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cómo tributan los seguros de Mutual Médica en el momento del cobro?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-18" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+								<p>En el caso de haberse desgravado las aportaciones realizadas, el tratamiento fiscal será de rendimientos del trabajo; en caso contrario, tributarán como rendimientos de capital mobiliario. Consulte <a href="#" class="link text-blue">Cómo mejorar mi fiscalidad</a>.</p>
+								
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_2-19" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Puedo contratar la asistencia en viaje para mi familia?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_2-19" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Sí, todos los mutualistas disponen de asistencia en viaje gratuita y tienen la posibilidad de contratarla también para sus familiares de hasta segundo grado por 5 €.</p>
+
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+							</div>
+							
+						</div>
+					
+					
+						<div class="panel-set mb-lg" data-filter="3">
+				
+							<h1 class="text-center mb-lg">La mutualidad de los médicos</h1> 
+				
+							<div class="panel-subset mb-lg" data-filter="3-1">
+				 
+								<h3>La mutualidad de los médicos</h3> 
+				  
+								<div class="text-left mt-md mb-lg">Ver <a href="#" class="link text-blue">“La mutualidad de los médicos”.</a> </div>
+								
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_3-1" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué es el mutualismo?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_3-1" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Una mutualidad es una entidad de personas y no de capital, ya que prima dar servicio a todos y cada uno de los mutualistas, los cuales son, al mismo tiempo, propietarios y asegurados de la entidad. Las mutualidades, por normativa legal y por convencimiento, son entidades sin ánimo de lucro. Están constituidas de manera voluntaria por grupos de personas que se unen para hacer frente a situaciones de riesgo que individualmente no pueden afrontar. Esta unión les permite disponer de las prestaciones adecuadas que den cobertura a los riesgos que cualquier persona afronta a lo largo de su vida.</p>
+
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_3-2" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué significa previsión social?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_3-2" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>La Seguridad Social consiste en una estructura de previsión social que representa una garantía económica de apoyo a los ciudadanos ante determinadas situaciones, como el desempleo, la defunción, la jubilación o la enfermedad. Pero el sistema público de previsión social convive con otros, que son los denominados sistemas de previsión social complementarios, que representan una alternativa voluntaria frente al carácter obligatorio de la Seguridad Social. Entre estos otros sistemas, se encuentran las mutualidades de previsión social profesionales, como Mutual Médica, que garantiza la previsión social del médico ofreciendo una renta o capital al médico o a su familia en el caso que el mutualista no pueda ejercer su profesión por enfermedad, defunción o jubilación, entre otras casuísticas.</p>
+
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_3-3" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Por qué Mutual Médica está especializada en el colectivo médico?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_3-3" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>La particularidad de Mutual Médica es que está especializada en un colectivo profesional muy concreto: los médicos. La misión de Mutual Médica es asegurar a los médicos para que puedan ejercer su profesión con tranquilidad. La mutualidad de los médicos nació en 1920 gracias a la iniciativa de un grupo de médicos que decidieron agruparse para poder ayudarse mutuamente ante situaciones de riesgo personal: defunción, enfermedad, etc.</p>
+
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_3-4" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Qué es la CLEA?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_3-4" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>La CLEA es el antiguo organismo público que asumía las funciones de liquidador en los casos de liquidación de entidades de seguros intervenidas por el Estado. Estas funciones fueron asumidas por el Consorcio de Compensación de Seguros a partir de la entrada en vigor de la Ley 44/2002, de 22 de noviembre, de Medidas de Reforma del Sistema Financiero.</p>
+								
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_3-5" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cuál es la diferencia entre una Mutua de trabajo y una mutualidad profesional de previsión social, como Mutual Médica?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_3-5" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Las mutuas de trabajo son mutuas colaboradoras con la Seguridad Social, creadas con la autorización del Ministerio de Empleo y Seguridad Social y registradas en el registro especial que depende de este Ministerio, que tienen la finalidad de colaborar con la Seguridad Social en la gestión de las siguientes actividades: </p>
+										<ul>
+											<li> Asistencia sanitaria, incluida la rehabilitación, comprendidas en la protección de las contingencias de accidentes de trabajo y enfermedades profesionales, así como la prevención de las mismas.</li>
+											<li> Gestión de la prestación por incapacidad temporal derivada de contingencias comunes; de las prestaciones por riesgo durante el embarazo y la lactancia natural; por cese de la actividad por cuenta propia, y por el cuidado de menores afectados por enfermedad grave.</li>
+										</ul>
+										<p>En cambio, una mutualidad profesional de previsión social tiene la función de cubrir los riesgos ligados a las personas de un colectivo determinado, tales como jubilación, enfermedad, defunción… Ejercen una modalidad aseguradora de carácter voluntario complementaria al sistema de la Seguridad Social.</p>
+										<p>Mutual Médica es la mutualidad de previsión social de los médicos.</p>
+
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+							</div>
+							
+						</div>
+					
+					
+						<div class="panel-set mb-no" data-filter="4">
+				
+							<h1 class="text-center mb-lg">Fundación Mutual Médica</h1> 
+				
+							<div class="panel-subset mb-lg" data-filter="4-1">
+				 
+								<h3>Premios a la Investigación</h3> 
+							
+								<div class="text-left mt-md mb-lg">Ver <a href="#" class="link text-blue">“Quiero investigar”.</a> </div>
+								
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_4-1" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Puedo optar a la Beca si ya he acabado la residencia?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_4-1" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Sí, puede optar a la Beca Mutual Médica si está en el último año de la residencia y si hace hasta dos años que finalizó el MIR.</p>
+								
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_4-2" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Cómo me puedo hacer mutualista para optar a la Beca Mutual Médica?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_4-2" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Para participar en la Beca Mutual Médica las bases obligan a que seas mutualista. Puedes hacerte mutualista en el mismo momento en que envías tu proyecto de investigación para concursar en le Beca Mutual Médica. Para ser mutualista, puedes contratar cualquiera de nuestros Seguros, pero si te presentas a la Beca lo más probable es que te interese el Seguro <a href="#" class="link text-blue">Mutualista Joven</a>. Te recomendamos que te dejes recomendar por uno de nuestros asesores. Si no, también puedes contratar a través de la <a href="#" class="link text-blue">Oficina Virtual</a>.</p>
+
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_4-3" class="collapsed text-blue" aria-expanded="false"> 
+										  Si soy extranjero, ¿puedo optar a la Beca Mutual Médica?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_4-3" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Sí, siempre que el proyecto de investigación que presentas a la Beca Mutual Médica se lleve a cabo en un hospital español o participe algún hospital de aquí.</p>
+
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_4-4" class="collapsed text-blue" aria-expanded="false"> 
+										  Mi proyecto se desarrollará en varios hospitales, algunos extranjeros, ¿puedo optar a la Beca Mutual Médica?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_4-4" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Sí, siempre que en el proyecto de investigación que presentas a la Beca Mutual Médica participe algún hospital español.</p>
+
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_4-5" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Puedo presentar el proyecto con el resto de documentación y adjuntar más tarde el Certificado del Comité de Ética? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_4-5" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Sí, pero entonces es recomendable que se presente justificante conforme el proyecto ha sido presentado al Comité de Ética del centro para su valoración y obtención de este certificado. Además, si el trabajoresulta premiado, no se abonará la cantidad con la que está dotado el premio hasta la presentación de este documento.  </p>
+
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_4-6" class="collapsed text-blue" aria-expanded="false"> 
+										  He publicado un artículo de investigación, pero tiene dos años diferentes de publicación: uno para papel y otro para la publicación digital, ¿puedo optar al Premio Dr. J. Font?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_4-6" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Sí, siempre que una de las dos publicaciones se corresponda con el año anterior a la convocatoria en la que quieres participar.</p>
+
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_4-7" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Es compatible participar con el mismo proyecto en otros premios o haber sido ya galardonado?
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_4-7" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>Sí, no hay ningún problema, la Beca Mutual Médica y el Premio Dr. J. Font son compatibles con otros premios.</p>
+
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+								<div class="panel">
+									
+								  <div class="panel-heading">
+									   
+									  <a data-toggle="collapse" data-parent="" href="#collapse_4-8" class="collapsed text-blue" aria-expanded="false"> 
+										  ¿Necesito ser mutualista para presentarme al Premio Dr. J. Font? 
+										  <i class="icon ion-chevron-up" aria-hidden="true"></i> 
+									  </a>
+										 
+								  </div>
+									
+								  <div id="collapse_4-8" class="panel-collapse collapse" aria-expanded="false">
+									  
+									<div class="panel-body">
+										 
+										<p>No, al Premio Dr. J. Font se pueden presentar todos los médicos (también no mutualistas) primeros firmantes de un artículo de investigación publicado en una revista con un factor de impacto igual o superior a 3.</p>
+
+									</div>
+									  
+								  </div>
+									
+								</div>
+								 
+							</div>
+							
+						</div>
+					
+					
+					</div>
+				 
+				</div>
+				
+				<a href="#" class="btn btn-rounded-white btn-border-2 text-med mt-lg">Ir al Glosario</a>
+			
+			</div>
+			 
+		</div>
+		 
+		<div class="bg bg-blue ph-sm-xs"> 
+
+			<div class="container text-center">
+ 
+				<h1 class="text-white">¿Sigues teniendo dudas?</h1>
+ 
+				<div class="row mt-lg mb_md">
+
+                    <div class="col-sm-6 text-right text-center-xs">
+
+                        <span class="text-md">Llámanos al <b>901 215 216</b> </span>            
+
+                    </div>
+
+                    <div class="col-sm-6 text-left text-center-xs">
+
+                        <span class="text-md">Visita nuestras <a href="#" class="underline">oficinas</a></span>
+
+                    </div> 
+
+                </div>
+ 
+				<p class="mv-lg text-xm">O si lo prefieres, déjanos tu número y te llamamos</p>
+				
+				<form class="form-inline"> 
+				  <div class="form-group"> <input type="text" class="form-control input-rounded-white text-center-xs" placeholder="Tu teléfono"> </div>
+				  <button type="submit" class="btn btn-rounded-white-md">Te llamamos</button>
+				</form>
+
+			</div> 
+
+		</div>
+		 
+	</div>
+	 
+    <footer> 
+		
+		<div class="bg-blue-light">
+			<div class="container"> 
+				<div class="row"> 
+					
+					<div class="col-md-6 col-sm-6 col-xs-12 col-lg-5 bb-xs mb-sm-xs text-left-xs pull-right">
+					
+						<div class="footer-header">Contacto</div>
+						
+						<p> 
+							¿Tienes dudas? Llámanos al <b class="text-nowrap">901 215 216</b> o déjanos tu número y en breve nos pondremos en contacto contigo. 
+						</p>
+						
+						<form> 
+						
+							<div class="row">
+							
+								<div class="col-lg-7 col-md-6 text-left">
+									<div class="mb-sm">
+										<input type="text" class="form-control input-rounded-white-sm text-center-xs" placeholder="Nombre y Apellidos"> 
+									</div>
+									<input type="text" class="form-control input-rounded-white-sm text-center-xs" placeholder="Tu teléfono">
+								</div>
+								
+								<div class="col-lg-5 col-md-6 text-right text-left-sm text-left-xs">
+									<button type="submit" class="btn btn-rounded-blue-xxs visible-sm visible-xs mt-sm">Te llamamos</button>
+									
+									<div class="line-height mb-sm   mt-xs-sm mt-xs-xs   mb-no-sm mb-no-xs"> 
+										<input type="checkbox" id="chk1" name="" class="circle-small-blue"> 
+										<label for="chk1" class="text-gray"> <i class="chk-icon"></i> No soy un robot </label> 
+									</div>
+									
+									<button type="submit" class="btn btn-rounded-blue-xxs hidden-sm hidden-xs">Te llamamos</button>
+								</div> 
+							</div> 
+						
+							<div class="mv-md mt-no-sm mt-no-xs text-left-xs"> 	 
+								<input type="checkbox" id="chk2" name="" class="circle-small-blue"> 
+								<label for="chk2" class="text-gray"> <i class="chk-icon"></i> He leído y acepto los <a href="#" class="text-light-blue text-sub text-nowrap">términos y condiciones</a> </label>   
+							</div>
+							
+						</form>
+						
+					</div> 
+ 
+					<div class="col-md-2 col-sm-3 col-xs-6 text-left-xs"> 
+						<div class="footer-header">Sobre Mutual Médica</div> 
+						<ul class="ul-disc">   
+							<li><a href="#">Mutual Médica</a></li>
+							<li><a href="#">Noticias</a></li>
+							<li><a href="#">Prensa</a></li>
+							<li><a href="#">Seguros</a></li> 						
+						</ul> 
+					</div>
+
+					<div class="col-md-2 col-sm-3 col-xs-6 text-left-xs">
+						<div class="footer-header">Recursos de interés</div> 
+						<ul class="ul-disc">     
+							<li><a href="#">Área del Mutualista</a></li> 
+							<li><a href="#">Links de interés</a></li> 
+						</ul> 
+					</div>
+
+					<div class="col-md-2 col-sm-3 col-xs-6 text-left-xs mt-xs-sm mt-xs-xs">
+						<div class="footer-header">Partners</div> 
+						<ul class="ul-disc">     
+							<li><a href="#">Colegios y Hospitales</a></li> 
+						</ul> 
+					</div>
+
+				</div>
+			</div> 
+		</div>
+		
+		<div class="bg-blue">
+			<div class="container"> 
+				 
+				<div class="row">
+
+					<div class="col-md-8 text-center-xs text-center-sm">
+						<ul class="ul-line">   
+							<li>© Copyright</li>      
+							<li> </li> 
+							<li><a href="#">Política de cookies</a></li> 
+							<li> </li> 
+							<li><a href="#">Aviso legal</a></li> 
+							<li> </li> 
+							<li><a href="#">Política de privacidad</a></li> 
+							<li> </li> 
+							<li><a href="#">Mapa del Sitio</a></li> 
+						</ul> 
+					</div> 
+
+					<div class="col-md-4 text-right text-center-xs text-center-sm"> 
+						<ul class="ul-line ul-social">   
+							<li><a href="#" class="btn btn-circle"><i class="icon ion-social-twitter"></i></a></li>  
+							<li><a href="#" class="btn btn-circle"><i class="icon ion-social-linkedin"></i></a></li>  
+						</ul> 
+					</div> 
+
+				</div>
+				
+			</div> 
+		</div>
+	
+	</footer> 
+
+	<a data-spy="affix" data-offset-top="30" onclick="scroll_Up( 500 );" class="scroll_up affix-top"> <span class="glyphicon glyphicon-chevron-up"></span> </a>
+	
+	<script src="includes/js/jquery.min.js"></script> 
+	
+	<script src="includes/js/bootstrap.min.js"></script> 
+	
+	<script src="includes/js/bootstrap-datepicker.js"></script> 
+	
+	<script src="includes/js/bootstrap-datepicker.es.min.js"></script> 
+	
+	<script src="includes/js/my_style.js"></script>
+	 
+</body></html>

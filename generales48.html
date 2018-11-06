@@ -1,0 +1,1922 @@
+<!DOCTYPE html> 
+<html lang="en" ng-app="colorAdminApp" class="ng-scope"> 
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+    <title>MUTUAL MEDICA</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="" name="description">
+    <meta content="tidinternationalgroup" name="author">
+		
+	<link rel="shortcut icon"   href="includes/images/favicon.png" /> 
+  
+    <link rel="stylesheet" type="text/css" href="includes/css/jquery-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="includes/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="includes/css/animate.min.css" />  
+    <link rel="stylesheet" type="text/css" href="includes/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="includes/css/ionicons.css" />	 
+	
+    <link rel="stylesheet" type="text/css" href="includes/css/my_style.css" /> 
+    <link rel="stylesheet" type="text/css" href="includes/css/bootstrap-datepicker.css" /> 
+
+</head>
+
+<body>
+
+	<header>
+		
+		<!--- MENU DESKTOP & LAPTOPS --->   
+		   
+		<nav class="header-bg-dark visible-md visible-lg navbar navbar-inverse"> 
+		
+			<div class="container -fluid"> 
+			
+				<div class="row">
+				 
+					<ul class="nav navbar-nav navbar-left navbar-1"> 
+						<li class="dropdown">
+							<a href="#" data-pane="#top-menu-pane-1" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mutual Médica <i class="icon ion-chevron-down"></i> </a>
+						</li>
+						<li class="dropdown">
+							<a href="#" data-pane="#top-menu-pane-2" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Seguros <i class="icon ion-chevron-down"></i> </a>
+						</li>
+						<li><a href="#">Contacto</a></li>
+						<li class="dropdown">
+							<a href="#" data-pane="#top-menu-pane-3" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Noticias <i class="icon ion-chevron-down"></i> </a>
+						</li>
+						<li><a href="#">Fundación</a></li>
+					</ul>
+						
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#" class="top-menu-btn-blue">Soy Mutualista</a></li> 
+					</ul>
+				 
+					<div class="top-menu-search navbar-right">  
+						<form class="navbar-form"> 
+							<div class="input-group">  
+								<input id="searh-str" class="form-control text-bold" placeholder="901 215 216">  
+								<span class="input-group-btn"> <button class="btn btn-default form-control" type="submit"> <i class="fa fa-search" aria-hidden="true"></i> </button> </span> 
+							</div> 
+						</form>  
+					</div>
+				  
+					<ul class="nav navbar-nav navbar-right navbar-2"> 
+						<li><a href="#" class="strong" title="Español">ESP</a></li>
+						<li><a href="#" title="Catalán">CAT</a></li>
+					</ul>
+						 
+				</div>
+			
+			</div>
+			
+		</nav>
+		
+			<div class="top-menu-content">
+			
+				<div class="container">
+			
+				  <div class="top-menu-tab-pane" id="top-menu-pane-1"> 
+					<div class="row row-table valign-top">
+						<div class="col-md-4 v-line">
+							<h4>La mutualidad de los médicos</h4>
+							<p>
+								Conoce todo lo que puede hacer la.
+							</p>
+							<a href="#" class="link"> Quiero saber más </a>
+						</div>
+						<div class="col-md-4 v-line">
+							<h4>Por qué ser Mutualista</h4>
+							<p>
+								Sólo por ser Mutualista podrás disfrutar</br>
+								de un gran número ventajas pensadas</br>
+								para ti y los tuyos.
+							</p>
+							<a href="#" class="link"> Descúbrelas aquí </a>
+						</div>
+						<div class="col-md-4 v-line">
+							<h4>También puede interesarte...</h4> 
+							<ul>
+								<li><a href="#">Órganos de gobierno</a></li>
+								<li><a href="#">Informes y documentos</a></li>
+								<li><a href="#">Casa del médico</a></li>
+							</ul> 
+						</div>
+					</div>
+				  </div> 
+				  
+				  <div class="top-menu-tab-pane" id="top-menu-pane-2">
+					<div class="row row-table valign-top">
+						<div class="col-md-3">
+							<ul>   
+								<li><a href="#">Alternativa a Autónomos</a></li>
+								<li><a href="#">Incapacidad Laboral Temporal</a></li>
+								<li><a href="#">Incapacidad Profesional Permanente</a></li>
+								<li><a href="#">Seguro de Dependencia</a></li> 
+								<li><a href="#">Seguro Vida-Ahorro</a></li>						
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<ul>   
+								<li><a href="#">Multi-Vida</a></li>
+								<li><a href="#">Orfandad</a></li>
+								<li><a href="#">Estudios garantizados</a></li>
+								<li><a href="#">Plan Previsión Asegurado Mutual</a></li> 
+								<li><a href="#">Seguro Jubilación Mutual</a></li>						
+							</ul>
+						</div>
+						<div class="col-md-3"> 
+							<ul>   
+								<li><a href="#">Seguro Ahorro-Inversión</a></li>
+								<li><a href="#">Seguro Ahorro-Garantizado</a></li>
+								<li><a href="#">Mutualista Joven</a></li>
+								<li><a href="#">Seguro Jubilación Ahorro Fiscal 105</a></li> 						
+							</ul>
+						</div>
+						<div class="col-md-3 v-line">
+							<h4>Médico de Ejercicio</br> Libre (MEL)</h4>
+							<p> 
+								Única alternativa al régimen de</br>
+								autónomos para médicos que</br>
+								quieran ejercer por cuenta propia.
+							</p>
+							<a href="#" class="link"> Quiero saber más </a>
+						</div>
+					</div>
+				  </div> 
+			
+				  <div class="top-menu-tab-pane" id="top-menu-pane-3">
+					<div class="row row-table valign-top">
+						<div class="col-md-3 v-line">
+							<h4>Última hora</h4>
+							<p> 
+								Consulta las noticias y novedades</br>
+								que más pueden interesarte como</br>
+								mutualista.
+							</p>
+							<a href="#" class="link"> Quiero estar al día </a>
+						</div> 
+						<div class="col-md-3 v-line">
+							<h4>Estudios y publicaciones</h4> 
+							<p>  
+								Aquí encontrarás documentos sobre el</br>
+								ámbito de los seguros de previsión</br>
+								social para médicos.
+							</p>
+							<a href="#" class="link"> Quiero saber más </a>
+						</div>
+						<div class="col-md-3 v-line">
+							<h4>Mutual Informa</h4> 
+							<p>  
+								Consulta desde aquí el boletín de</br>
+								información bimestral de Mutual</br>
+								Médica.
+							</p>
+							<a href="#" class="link"> Me interesa </a>
+						</div>
+						<div class="col-md-3 v-line">
+							<h4>Sala de prensa</h4> 
+							<p> 
+								Espacio para periodistas: con</br> 
+								contenidos y recursos de interés</br> 
+								para la labor informativa.
+							</p>
+							<a href="#" class="link"> Me interesa </a>
+						</div>
+					</div>
+				  </div> 
+				  
+				</div>
+			
+			</div>
+	  
+			<div class="header-bg-white visible-md visible-lg">
+			
+				<div class="container"> 
+				
+					<div class="row">
+
+						<div class="left"> <a href="#" class="logo"> <img alt="MutualMedica" src="includes/images/logo.png"> </a> </div> 
+
+						<div class="right"> 
+						 
+							<ul class="nav navbar-nav navbar-left"> 
+								<li class="dropdown"> <a href="#" data-pane="#main-menu-pane-1" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Iniciar</br>actividad privada </a></li>
+								<li class="dropdown"> <a href="#" data-pane="#main-menu-pane-2" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Asegurar</br>mis ingresos </a></li>
+								<li class="dropdown"> <a href="#" data-pane="#main-menu-pane-3" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Asegurar</br>a mi familia </a></li>
+								<li class="dropdown"> <a href="#" data-pane="#main-menu-pane-4" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Preparar</br>mi futuro </a></li>
+								<li class="dropdown"> <a href="#" data-pane="#main-menu-pane-5" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Primeros pasos</br>como Médico </a></li>
+								<li class="dropdown"> 
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Te ayudamos <i class="icon ion-chevron-down text-dark-blue"></i> </a>
+									<div class="dropdown-menu dropdown-menu-help dropdown-menu-right"> 
+										<div class="row row-table_ valign-top">
+											<div class="col-md-8">
+												<h4>Atención Personalizada</h4><h4>901 215 216</h4> 
+												<p class="text-md text-blue"> Horario L-V de 9:00h a 21:00h. </br> Precio llamada local. </p> 
+												<ul class="ul-ayudamos">   
+													<li class="hidden">¿Buscas asesoramiento? Accede a <a href="#">nuestro formulario</a></li>
+													<li class="hidden">¿Quieres rescatar tu jubilación?  <a href="#">Te lo mostramos</a></li>
+													
+													<li>¿Tienes dudas? Consulta las <a href="#"> preguntas frecuentes</a></li>
+													<li>¿Buscas asesoramiento? Accede a <a href="#">nuestro formulario</a></li> 
+													<li>¿Quieres solicitar una prestación? <a href="#">Mira cómo tramitarla</a></li>
+													<li>¿Quieres mejorar la fiscalidad? <a href="#">Te lo mostramos</a></li>
+													<li>Consulta el <a href="#">Glosario asegurador</a></li>			
+												</ul> 
+											</div>  
+											<div class="col-md-4">  
+												<a href="#" class="btn link-block">  
+													<img alt="MutualMedica" src="includes/images/i-help-1.png" height="65px">  
+													<div> Accede al Área </br> del mutualista </div> 
+												</a>
+											
+												<a href="#" class="btn link-block-blue mt-md">  
+													<img alt="MutualMedica" src="includes/images/i-help-2.png" height="65px">  
+													<div> Nuestras oficinas </div> 
+												</a> 
+											</div>
+										</div>
+									</div> 
+								</li>
+							</ul>
+							
+						</div> 
+
+					</div>
+				  
+				</div>
+				 
+				<div class="main-menu-content">
+				
+					<div class="container">
+				
+					  <div class="main-menu-tab-pane" id="main-menu-pane-1"> 
+						<div class="row row-table valign-top">
+							<div class="col-md-4 v-line">
+								<h4>La mutualidad de los médicos</h4>
+								<p>
+									Conoce todo lo que puede hacer la</br>
+									mutualidad por ti, por tu carrera</br>
+									profesional y por tu familia.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-md-4 v-line">
+								<h4>Por qué ser Mutualista</h4>
+								<p>
+									Sólo por ser Mutualista podrás disfrutar</br>
+									de un gran número ventajas pensadas</br>
+									para ti y los tuyos.
+								</p>
+								<a href="#" class="link"> Descúbrelas aquí </a>
+							</div>
+							<div class="col-md-4 v-line">
+								<h4>También puede interesarte...</h4> 
+								<ul>
+									<li><a href="#">Órganos de gobierno</a></li>
+									<li><a href="#">Informes y documentos</a></li>
+									<li><a href="#">Casal del médico</a></li>
+								</ul> 
+							</div>
+						</div>
+					  </div> 
+					  
+					  <div class="main-menu-tab-pane" id="main-menu-pane-2"> 
+						<div class="row row-table valign-top">
+							<div class="col-md-4 v-line">
+								<h4>Durante una baja laboral</h4>
+								<p> 
+									Te preocupa que un accidente o</br>
+									enfermedad inesperados puedan</br>
+									poner en riesgo tus ingresos.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-md-4 v-line">
+								<h4>Protegiendo mi especialidad</h4>
+								<p>
+									Asegura tus ingresos en caso de que</br>
+									no puedas seguir ejerciendo tu</br>
+									especialidad médica.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-md-4 v-line">
+								<h4>En caso de dependencia</h4> 
+								<p>
+									Contar con una renta vitalicia ante</br>
+									una situación de dependencia puede</br>
+									marcar un antes y un después.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+						</div>
+					  </div> 
+					  
+					  <div class="main-menu-tab-pane" id="main-menu-pane-3"> 
+						<div class="row row-table valign-top">
+							<div class="col-md-4 v-line">
+								<h4>Pensando en los míos</h4>
+								<p>  
+									Asegura la estabilidad económica de tu familia</br>
+									por si algún día faltas o te encuentras en una</br>
+									situación de incapacidad o invalidez.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-md-4 v-line">
+								<h4>Que nada les falte a mis hijos</h4>
+								<p>
+									Protege la tranquilidad de tus hijos y</br>
+									los planes que tienes para ellos ante</br>
+									cualquier circunstancia.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-md-4"></div>
+						</div>
+					  </div> 
+					  
+					  <div class="main-menu-tab-pane" id="main-menu-pane-4"> 
+						<div class="row row-table valign-top">
+							<div class="col-md-4 v-line">
+								<h4>Me preocupa la jubilación</h4>
+								<p>  
+									Empieza a pensar en tu jubilación con</br>
+									los diferentes seguros que hemos</br>
+									preparado para ti.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-md-4 v-line">
+								<h4>Me interesa ahorrar</h4>
+								<p>
+									Te ofrecemos diferentes formas de</br>
+									ahorro para que empieces a construir</br>
+									la vida que deseas.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-md-4 v-line">
+								<h4>Portal de Jubilación del Médico</h4> 
+								<p>
+									Todo lo que necesitas saber sobre tu</br>
+									jubilación y cómo complementarla.</br></br>
+								</p>
+								<a href="#" class="link"> IrA al portal </a>
+							</div>
+						</div>
+					  </div> 
+					  
+					  <div class="main-menu-tab-pane" id="main-menu-pane-5">
+						<div class="row row-table valign-top">
+							<div class="col-md-3">
+								<ul>   
+									<li><a href="#">Envejecimiento de la población</a></li>
+									<li><a href="#">Sistema de pensiones</a></li>
+									<li><a href="#">El médico y la jubilación</a></li> 					
+								</ul>
+							</div>
+							<div class="col-md-3">
+								<ul>   
+									<li><a href="#">Conceptos básicos sobre jubilación</a></li>
+									<li><a href="#">Regulación y Fiscalidad</a></li>
+									<li><a href="#">Hablamos con los colegios</a></li> 						
+								</ul>
+							</div>
+							<div class="col-md-3"> 
+								<ul>   
+									<li><a href="#">Qué opinan los médicos</a></li> 						
+								</ul>
+							</div>
+							<div class="col-md-3 v-line">
+								<h4>Médico de Ejercicio</br> Libre (MEL)</h4>
+								<p> 
+									Única alternativa al régimen de</br>
+									autónomos para médicos que</br>
+									quieran ejercer por cuenta propia.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+						</div>
+					  </div> 
+				 
+					</div>
+				
+				</div>
+					  
+			</div>  
+			   
+		   
+		<!--- MENU TABLETS & PHONES --->   
+		   
+		<div class="header-bg-blue hidden-md hidden-lg">
+			<div class="container"> 
+				<div class="row"> 
+				
+					<div class="col-xs-4 text-center-xs">
+						<a href="#" class="logo"> <img alt="MutualMedica" alt="HomePage" src="includes/images/logo_z.png" /> </a> 
+					</div> 
+					
+					<div class="col-xs-8 text-center-xs"> 
+						<div class="div-user-menu clear">
+							<div> 
+								<a href="#" class="menu-btn right"> 
+									<i></i> 
+									<div class="menu-btn-text">Menu</div> 
+								</a> 
+							</div>
+							<div> 
+								<button type="submit" class="btn btn-rounded-blue-xs">Te ayudamos</button>
+							</div>
+						</div>
+					</div> 
+					
+				</div>
+			</div> 
+		</div>	
+			
+			<div id="menu-lateral" class="menu-lateral"> 
+				<div>
+					<div class="light-header">   
+						<a href="#"> <b>ESP</b> | CAT</a> 
+						<span class="phone"><i class="icon ion-ios-telephone"></i> 901 215 216</span> 
+						<i class="icon ion-close-round"></i> 
+					</div>
+				</div>
+				<ul>  
+					<li class="light-blue"><a href="#">Soy Mutualista <span class="right"><img alt="MutualMedica" src="includes/images/light-blue-user.jpg"></span></a></li>
+					
+					<li><a data-toggle="collapse" data-id="1">Mutual Médica <i class="icon ion-chevron-right"></i></a> </li>
+					<li><a data-toggle="collapse" data-id="2">Seguros <i class="icon ion-chevron-right"></i></a> </li>
+					<li><a href="#">Contacto <i class="icon ion-chevron-right"></i></a> </li>
+					<li><a data-toggle="collapse" data-id="3">Noticias <i class="icon ion-chevron-right"></i></a> </li>
+					<li><a href="#">Fundación <i class="icon ion-chevron-right"></i></a> </li>
+				</ul>
+				
+				<ul class="blue">			
+					<li><a data-toggle="collapse" data-id="4">Iniciar actividad privada <i class="icon ion-chevron-right"></i></a> </li>
+					<li><a data-toggle="collapse" data-id="5">Asegurar mis ingresos <i class="icon ion-chevron-right"></i></a> </li>
+					<li><a data-toggle="collapse" data-id="6">Asegurar a mi familia <i class="icon ion-chevron-right"></i></a> </li>
+					<li><a data-toggle="collapse" data-id="7">Preparar mi futuro <i class="icon ion-chevron-right"></i></a> </li>
+					<li><a data-toggle="collapse" data-id="8">Primeros pasos como médico <i class="icon ion-chevron-right"></i></a> </li> 
+				</ul> 
+				
+			</div>
+		  
+			<div class="menu-lateral-content">
+			
+				<div class="container">
+			
+				  <div class="menu-lateral-tab-pane" id="menu-lateral-pane-1"> 
+				  
+					<a data-toggle="collapse" class="light-gray" href="#"> <i class="icon ion-chevron-left"></i> Mutual Médica </a> 
+					
+					<div class="ph-lg">
+						<div class="row row-line"> 
+							<div class="col-sm-6">
+								<h4>La mutualidad de los médicos</h4>
+								<p>
+									Conoce todo lo que puede hacer la</br>
+									mutualidad por ti, por tu carrera</br>
+									profesional y por tu familia.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>Por qué ser Mutualista</h4>
+								<p>
+									Sólo por ser Mutualista podrás disfrutar</br>
+									de un gran número ventajas pensadas</br>
+									para ti y los tuyos.
+								</p>
+								<a href="#" class="link"> Descúbrelas aquí </a>
+							</div>
+							<div class="col-sm-12">
+								<h4>También puede interesarte...</h4> 
+								<ul class="arrow-gray">
+									<li><a href="#">Órganos de gobierno</a></li>
+									<li><a href="#">Informes y documentos</a></li>
+									<li><a href="#">Casa del médico</a></li>
+								</ul> 
+							</div>  
+						</div>
+					</div>
+				  
+				  </div> 
+				  
+				  <div class="menu-lateral-tab-pane" id="menu-lateral-pane-2">
+				  
+					<a data-toggle="collapse" class="light-gray" href="#"> <i class="icon ion-chevron-left"></i> Seguros </a> 
+					
+					<div class="ph-lg">
+						<div class="row">
+							<div class="col-sm-7">
+								<ul class="line-gray">   
+									<li><a href="#">Alternativa a Autónomos</a></li>
+									<li><a href="#">Incapacidad Laboral Temporal</a></li>
+									<li><a href="#">Incapacidad Profesional Permanente</a></li>
+									<li><a href="#">Seguro de Dependencia</a></li> 
+									<li><a href="#">Seguro Vida-Ahorro</a></li>	 
+									
+									<li><a href="#">Multi-Vida</a></li>
+									<li><a href="#">Orfandad</a></li>
+									<li><a href="#">Estudios garantizados</a></li>
+									<li><a href="#">Plan Previsión Asegurado Mutual</a></li> 
+									<li><a href="#">Seguro Jubilación Mutual</a></li>	 
+									
+									<li><a href="#">Seguro Ahorro-Inversión</a></li>
+									<li><a href="#">Seguro Ahorro-Garantizado</a></li>
+									<li><a href="#">Mutualista Joven</a></li>
+									<li><a href="#">Seguro Jubilación Ahorro Fiscal 105</a></li> 						
+								</ul>
+							</div>
+							<div class="col-sm-5">
+								<h4>Médico de Ejercicio</br> Libre (MEL)</h4>
+								<p> 
+									Única alternativa al régimen de</br>
+									autónomos para médicos que</br>
+									quieran ejercer por cuenta propia.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+						</div>
+					</div>
+				  
+				  </div> 
+			
+				  <div class="menu-lateral-tab-pane" id="menu-lateral-pane-3">
+				  
+					<a data-toggle="collapse" class="light-gray" href="#"> <i class="icon ion-chevron-left"></i> Noticias </a> 
+					
+					<div class="ph-lg">
+						<div class="row row-line"> 
+							<div class="col-sm-6">
+								<h4>Última hora</h4>
+								<p> 
+									Consulta las noticias y novedades</br>
+									que más pueden interesarte como</br>
+									mutualista.
+								</p>
+								<a href="#" class="link"> Quiero estar al día </a>
+							</div> 
+							<div class="col-sm-6">
+								<h4>Estudios y publicaciones</h4> 
+								<p>  
+									Aquí encontrarás documentos sobre el</br>
+									ámbito de los seguros de previsión</br>
+									social para médicos.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>Mutual Informa</h4> 
+								<p>  
+									Consulta desde aquí el boletín de</br>
+									información bimestral de Mutual</br>
+									Médica.
+								</p>
+								<a href="#" class="link"> Me interesa </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>Sala de prensa</h4> 
+								<p> 
+									Espacio para periodistas: con</br> 
+									contenidos y recursos de interés</br> 
+									para la labor informativa.
+								</p>
+								<a href="#" class="link"> Me interesa </a>
+							</div>
+							<div class="col-sm-12">
+								<h4>También puede interesarte...</h4> 
+								<ul class="arrow-gray">
+									<li><a href="#">Órganos de gobierno</a></li>
+									<li><a href="#">Informes y documentos</a></li>
+									<li><a href="#">Casa del médico</a></li>
+								</ul> 
+							</div> 	
+						</div>
+					</div>
+				  
+				  </div> 
+				  
+				  
+				  <div class="menu-lateral-tab-pane" id="menu-lateral-pane-4">
+				  
+					<a data-toggle="collapse" class="light-blue" href="#"> <i class="icon ion-chevron-left"></i> Iniciar actividad privada </a> 
+					
+					<div class="ph-lg"> 
+						<div class="row row-line">
+							<div class="col-sm-6">
+								<h4>La mutualidad de los médicos</h4>
+								<p>
+									Conoce todo lo que puede hacer la</br>
+									mutualidad por ti, por tu carrera</br>
+									profesional y por tu familia.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>Por qué ser Mutualista</h4>
+								<p>
+									Sólo por ser Mutualista podrás disfrutar</br>
+									de un gran número ventajas pensadas</br>
+									para ti y los tuyos.
+								</p>
+								<a href="#" class="link"> Descúbrelas aquí </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>También puede interesarte...</h4> 
+								<ul class="line-gray">
+									<li><a href="#">Órganos de gobierno</a></li>
+									<li><a href="#">Informes y documentos</a></li>
+									<li><a href="#">Casal del médico</a></li>
+								</ul> 
+							</div> 
+							<div class="col-sm-6"></div>
+						</div>
+					</div>
+				  
+				  </div> 
+				  
+				  <div class="menu-lateral-tab-pane" id="menu-lateral-pane-5">
+				  
+					<a data-toggle="collapse" class="light-blue" href="#"> <i class="icon ion-chevron-left"></i> Asegurar mis ingresos </a> 
+					
+					<div class="ph-lg"> 
+						<div class="row row-line">
+							<div class="col-sm-6">
+								<h4>Durante una baja laboral</h4>
+								<p> 
+									Te preocupa que un accidente o</br>
+									enfermedad inesperados puedan</br>
+									poner en riesgo tus ingresos.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>Protegiendo mi especialidad</h4>
+								<p>
+									Asegura tus ingresos en caso de que</br>
+									no puedas seguir ejerciendo tu</br>
+									especialidad médica.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>En caso de dependencia</h4> 
+								<p>
+									Contar con una renta vitalicia ante</br>
+									una situación de dependencia puede</br>
+									marcar un antes y un después.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+						</div>
+					</div>
+				  
+				  </div> 
+				  
+				  <div class="menu-lateral-tab-pane" id="menu-lateral-pane-6">
+				  
+					<a data-toggle="collapse" class="light-blue" href="#"> <i class="icon ion-chevron-left"></i> Asegurar a mi familia </a> 
+					
+					<div class="ph-lg"> 
+						<div class="row row-line">
+							<div class="col-sm-6">
+								<h4>Pensando en los míos</h4>
+								<p>  
+									Asegura la estabilidad económica de tu familia</br>
+									por si algún día faltas o te encuentras en una</br>
+									situación de incapacidad o invalidez.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>Que nada les falte a mis hijos</h4>
+								<p>
+									Protege la tranquilidad de tus hijos y</br>
+									los planes que tienes para ellos ante</br>
+									cualquier circunstancia.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div> 
+						</div>
+					</div>
+				  
+				  </div> 
+				  
+				  <div class="menu-lateral-tab-pane" id="menu-lateral-pane-7">
+				  
+					<a data-toggle="collapse" class="light-blue" href="#"> <i class="icon ion-chevron-left"></i> Preparar mi futuro </a> 
+					
+					<div class="ph-lg"> 
+						<div class="row row-line">
+							<div class="col-sm-6">
+								<h4>Me preocupa la jubilación</h4>
+								<p>  
+									Empieza a pensar en tu jubilación con</br>
+									los diferentes seguros que hemos</br>
+									preparado para ti.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>Me interesa ahorrar</h4>
+								<p>
+									Te ofrecemos diferentes formas de</br>
+									ahorro para que empieces a construir</br>
+									la vida que deseas.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div>
+							<div class="col-sm-6">
+								<h4>Portal de Jubilación del Médico</h4> 
+								<p>
+									Todo lo que necesitas saber sobre tu</br>
+									jubilación y cómo complementarla.</br></br>
+								</p>
+								<a href="#" class="link"> IrA al portal </a>
+							</div> 
+						</div>
+					</div>
+				  
+				  </div> 
+				  
+				  <div class="menu-lateral-tab-pane" id="menu-lateral-pane-8">
+				  
+					<a data-toggle="collapse" class="light-blue" href="#"> <i class="icon ion-chevron-left"></i> Primeros pasos como médico </a> 
+					
+					<div class="ph-lg"> 
+						<div class="row row-line">
+							<div class="col-sm-7">
+								<ul class="line-gray">   
+									<li><a href="#">Envejecimiento de la población</a></li>
+									<li><a href="#">Sistema de pensiones</a></li>
+									<li><a href="#">El médico y la jubilación</a></li> 	 
+									
+									<li><a href="#">Conceptos básicos sobre jubilación</a></li>
+									<li><a href="#">Regulación y Fiscalidad</a></li>
+									<li><a href="#">Hablamos con los colegios</a></li> 	 
+									
+									<li><a href="#">Qué opinan los médicos</a></li> 						
+								</ul>
+							</div>
+							<div class="col-sm-5">
+								<h4>Médico de Ejercicio</br> Libre (MEL)</h4>
+								<p> 
+									Única alternativa al régimen de</br>
+									autónomos para médicos que</br>
+									quieran ejercer por cuenta propia.
+								</p>
+								<a href="#" class="link"> Quiero saber más </a>
+							</div> 
+						</div>
+					</div>
+				  
+				  </div> 
+				  
+				  
+				  <div class="menu-lateral-tab-pane" id="menu-lateral-pane-9"> 
+					<div class="ph-lg"> 
+						<div class="row">
+							<div class="col-sm-6">
+								<h4>Atención Personalizada</h4><h4>901 215 216</h4> 
+								<p class="text-md text-blue"> Horario L-V de 9:00h a 21:00h. </br> Precio llamada local. </p> 
+								<ul class="ul-ayudamos">    
+									<li> ¿Tienes dudas? 						</br><a href="#"> Consulta las preguntas frecuentes</a></li>
+									<li> ¿Buscas asesoramiento? 				</br><a href="#">Accede a nuestro formulario</a></li> 
+									<li> ¿Quieres solicitar una prestación? 	</br><a href="#">Mira cómo tramitarla</a></li>
+									<li> ¿Quieres mejorar la fiscalidad? 		</br><a href="#">Te lo mostramos</a></li> 			
+								</ul> 
+							</div>  
+							<div class="col-sm-6">  
+								<a href="#" class="btn link-block mt-lg">  
+									<img alt="MutualMedica" src="includes/images/i-help-1.png" height="65px">  
+									<div> Accede al Área </br> del mutualista </div> 
+								</a>
+							
+								<a href="#" class="btn link-block-blue mt-md">  
+									<img alt="MutualMedica" src="includes/images/i-help-2.png" height="65px">  
+									<div> Nuestras oficinas </div> 
+								</a> 
+							</div>
+						</div>
+					</div>
+				  
+				  </div> 
+				  
+				</div>
+			
+			</div>
+	  
+	</header>
+	     
+	<div class="content">
+	 
+		<div class="bg bk bg-bk-22"> 
+
+			<div class="container text-center">
+
+				<p class="text-white text-md">QUIERO INVESTIGAR</p>
+ 
+				<h1 class="text-white text-lg mt-sm mb-md">Premios a la Investigación</h1> 
+				
+				<p class="text-white text-md text-md mb-md">Fundación Mutual Médica</p>
+				  
+			</div> 
+
+		</div>
+		 
+		<div class="bg bg-white ph-sm-xs"> 
+
+			<div class="container text-center">
+ 
+				<h1 class="text-blue">Ayudas a la investigación médica</h1> 
+
+				<p class="mt-md">La creación de nuevas terapias, el desarrollo de herramientas diagnósticas innovadoras, la cura de enfermedades… no serían </br> 
+					posibles sin investigación. Sin una investigación constante y de alta calidad. Y desde Mutual Médica nos comprometemos con </br> 
+					los avances médicos. Pero también nos preocupamos por ti. Por lo que a ti te interesa. Por eso apoyamos activamente la </br> 
+					investigación médica mediante premios y becas. Es nuestra forma de demostrarte, una vez más, lo importante que eres para </br> 
+					nosotros. Tú y todo el colectivo médico.</p>
+ 
+			</div> 
+
+		</div>
+		 
+		<div class="bg bg-light-blue ph-sm-xs">  
+ 
+			<div class="container">
+			 
+				<div class="row mb_md">
+				
+					<div class="col-sm-5"> <div class="mh-in-md-xs"> <img alt="MutualMedica" class="img-responsive img-right" src="includes/images/img-19.jpg"> </div> </div>
+					
+					<div class="col-md-6 col-md-offset-1 col-sm-7">
+					
+						<h2 class="text-left mt-md">Beca Mutual Médica</h2>
+						
+						<p class="text-md text-gray">Premiamos tus proyectos de investigación para hacerlos realidad</p>
+					
+						<p class="mt-lg">Encontrar recursos y financiación para la investigación médica resulta </br> 
+							difícil si estás empezando a ejercer. </br> 
+							Para contribuir a resolver esta situación, hace 26 años creamos este </br> 
+							premio solo para médicos como tú: residentes de último año o que hayan </br> 
+							acabado el MIR en los últimos dos años.</p>
+						
+						<p class="mb-lg">Con la Beca Mutual Médica puedes recibir <b>10.000 €</b> para tu proyecto de </br> 
+							investigación. O <b>4.000 €</b>, si resulta premiado con uno de los dos accésits </br> 
+							posibles.</p>
+						
+						<div class="row row-inline text-left mb_md ph-md-xs">
+						
+							<div class="col-lg-6_ mb-md_ wide-xs"> <a class="btn btn-rounded-blue-md" href="#">Consultar las bases</a> </div>
+
+							<div class="div-xs"></div>
+						
+							<div class="col-lg-6_ wide-xs"> <a class="btn btn-rounded-blue-md" href="#">Formulario de participación</a> </div>
+							
+						</div>
+						
+					</div>
+				
+				</div>
+				
+			</div>
+			   
+		</div> 
+		
+		<div class="bg bg-white ph-sm-xs">     
+ 
+			<div class="container text-center">
+
+				<p class="text-md- text-blue mb-md">CONVOCATORIA 2017</p>
+				
+				<h1 class="text-center mb-md">Tienes hasta el 29 de septiembre para inscribirte</h1> 
+				
+				<p>Tanto si estás iniciando tu carrera como si ya eres un profesional consagrado, tu investgación puede suponer una </br> contribución decisiva a la comunidad médica y a la población y queremos apoyarla.</p>
+
+			</div> 
+
+			<div class="container mt-lg">
+
+				<div class="row mb_lg"> 
+
+					<div class="col-md-4 col-md-offset-2 col-sm-6 text-center">
+
+						<img alt="MutualMedica" class="img-responsive" src="includes/images/dist-4-w.jpg"> 
+
+						<p class="text-blue text-md mt-md">Beca Mutual Médica</p>
+
+						<p class="">Exclusiva para residentes de último </br> año o médicos que hayan acabado el </br> MIR en los últimos dos años.</p> 
+
+					</div>
+
+					<div class="col-md-4 col-sm-6 text-center">
+
+						<img alt="MutualMedica" class="img-responsive" src="includes/images/dist-21-w.jpg"> 
+
+						<p class="text-blue text-md mt-md">Premio Dr. J. Font</p>
+
+						<p class="">Destinado a artículos de investigación </br> médica con aplicación potencial en la </br> práctica médica.</p> 
+
+					</div>
+
+				</div>
+
+			</div> 
+ 
+		</div> 
+		 
+		<div class="bg bg-light-blue ph-sm-xs">  
+ 
+			<div class="container">
+			 
+				<div class="row mb_md">
+				
+					<div class="col-sm-5 col-md-offset-1 pull-right"> <div class="mh-in-md-xs"> <img alt="MutualMedica" class="img-responsive img-right" src="includes/images/img-20.jpg"> </div> </div>
+					
+					<div class="col-md-6 col-sm-7">
+					
+						<h2 class="text-left mt-md">Premio Dr. J. Font</h2>
+						
+						<p class="text-md text-gray">Premiamos tus artículos sobre investigación médica</p>
+					
+						<p class="mt-lg"> Si tu trabajo de investigación ha despertado interés al publicarse, tiene </br> 
+							muchas posibilidades de ganar nuestro premio Dr. J. Font. En él pueden </br> 
+							participar todos los artículos originales sobre investigación médica con </br> 
+							aplicación en la práctica clínica que hayan sido publicados, ya sea en revista </br> 
+							nacional o internacional, en papel o en formato digital, durante el año </br> 
+							anterior a la convocatoria.</p>
+						
+						<p> El galardón premia al autor primer firmante del artículo elegido con <b>3.000 €</b>.  </br> 
+							Y contempla dos posibles accésits de <b>1.000 €</b> cada uno.</p>
+						
+						<p class="mb-lg"> Establecimos este premio en 2007 en honor del Dr. J. Font, miembro del  </br> 
+							Consejo de Administración de Mutual Médica y destacado inmunólogo, con  </br> 
+							una larga trayectoria profesional en nuestro país y en el extranjero.</p>
+						
+						<div class="row row-inline text-left mb_md ph-md-xs">
+						
+							<div class="col-lg-6_ mb-md_ wide-xs"> <a class="btn btn-rounded-blue-md" href="#">Consultar las bases</a> </div>
+						
+							<div class="div-xs"></div>
+						
+							<div class="col-lg-6_ wide-xs"> <a class="btn btn-rounded-blue-md" href="#">Formulario de participación</a> </div>
+							
+						</div>
+						
+					</div>
+				
+				</div>
+				
+			</div>
+			   
+		</div> 
+		 
+		<div class="bg bg-white ph-sm-xs">   
+
+			<div class="container">
+			
+				<h1 class="text-center text-blue">¿Qué oportunidades ofrecen estos premios?</h1>
+				
+				<p class="text-center text-md text-dark mt-sm pb-xs mb-lg">Los ganadores de la pasada edición te lo cuentan:</p>
+				
+				<div class="slider-white">
+			  
+					<div class="carousel slide" id="carousel-example-generic-2" data-ride="carousel"> 
+					
+						<div class="carousel-inner mv-lg" role="listbox"> 
+						
+							<div class="item text-center active">  
+							 
+								<div class="row text-left">
+								
+									<div class="col-sm-6 col-md-offset-1 pull-right"> 
+									
+										<img alt="MutualMedica" class="img-responsive img-left" src="includes/images/vid-02.png"> 
+										
+										<h3 class="text-blue mt-md">Dra Carmen Herrero</h3>
+										
+										<p>Beca 2016</p>
+										
+									</div>
+									
+									<div class="col-md-5 col-sm-6">
+									 
+										<p class="text-light-blue text-md pb-md">“Conocer el perfil de respuesta inmune tumoral </br>  
+											permitiría un mayor manejo del cáncer de mama </br> 
+											triple negativo”</p>
+									 
+										<p> El proyecto se basa en el cáncer de mama triple negativo, un </br>  
+											subtipo con mal pronóstico” explica Carmen Herrero que </br>  
+											con este proyecto de investigación ha sido la ganadora de la </br>  
+											Beca Mutual Médica 2016, dotada con 10.000 €. Además, la </br>  
+											doctora Herrero asegura que “es una gran alegría recibir</br>  
+											este reconocimiento para poder desarrollar este proyecto ya</br>  
+											que la mayoría de pacientes del hospital presentan este tipo</br>  
+											de patología.</p>
+										
+										<p class="mv-md pt-sm"> 
+											<a class="btn btn-rounded-blue-md" href="#">Acceder a la entrevista</a>   
+										</p>
+											 
+									</div>
+								
+								</div>
+								 
+							</div> 
+						  
+							<div class="item text-center">  
+							 
+								<div class="row text-left">
+								
+									<div class="col-sm-6 col-md-offset-1 pull-right"> 
+									
+										<img alt="MutualMedica" class="img-responsive img-left" src="includes/images/vid-02.png"> 
+										
+										<h3 class="text-blue mt-md">Dra Carmen Herrero</h3>
+										
+										<p>Beca 2016</p>
+										
+									</div>
+									
+									<div class="col-md-5 col-sm-6">
+									 
+										<p class="text-light-blue text-md pb-md">“Conocer el perfil de respuesta inmune tumoral </br>  
+											permitiría un mayor manejo del cáncer de mama </br> 
+											triple negativo”</p>
+									 
+										<p> El proyecto se basa en el cáncer de mama triple negativo, un </br>  
+											subtipo con mal pronóstico” explica Carmen Herrero que </br>  
+											con este proyecto de investigación ha sido la ganadora de la </br>  
+											Beca Mutual Médica 2016, dotada con 10.000 €. Además, la </br>  
+											doctora Herrero asegura que “es una gran alegría recibir</br>  
+											este reconocimiento para poder desarrollar este proyecto ya</br>  
+											que la mayoría de pacientes del hospital presentan este tipo</br>  
+											de patología.</p>
+										
+										<p class="mv-md pt-sm"> 
+											<a class="btn btn-rounded-blue-md" href="#">Acceder a la entrevista</a>   
+										</p>
+											 
+									</div>
+								
+								</div>
+								 
+							</div> 
+						  
+							<div class="item text-center">  
+							 
+								<div class="row text-left">
+								
+									<div class="col-sm-6 col-md-offset-1 pull-right"> 
+									
+										<img alt="MutualMedica" class="img-responsive img-left" src="includes/images/vid-02.png"> 
+										
+										<h3 class="text-blue mt-md">Dra Carmen Herrero</h3>
+										
+										<p>Beca 2016</p>
+										
+									</div>
+									
+									<div class="col-md-5 col-sm-6">
+									 
+										<p class="text-light-blue text-md pb-md">“Conocer el perfil de respuesta inmune tumoral </br>  
+											permitiría un mayor manejo del cáncer de mama </br> 
+											triple negativo”</p>
+									 
+										<p> El proyecto se basa en el cáncer de mama triple negativo, un </br>  
+											subtipo con mal pronóstico” explica Carmen Herrero que </br>  
+											con este proyecto de investigación ha sido la ganadora de la </br>  
+											Beca Mutual Médica 2016, dotada con 10.000 €. Además, la </br>  
+											doctora Herrero asegura que “es una gran alegría recibir</br>  
+											este reconocimiento para poder desarrollar este proyecto ya</br>  
+											que la mayoría de pacientes del hospital presentan este tipo</br>  
+											de patología.</p>
+										
+										<p class="mv-md pt-sm"> 
+											<a class="btn btn-rounded-blue-md" href="#">Acceder a la entrevista</a>   
+										</p>
+											 
+									</div>
+								
+								</div>
+								 
+							</div> 
+						  
+							<div class="item text-center">  
+							 
+								<div class="row text-left">
+								
+									<div class="col-sm-6 col-md-offset-1 pull-right"> 
+									
+										<img alt="MutualMedica" class="img-responsive img-left" src="includes/images/vid-02.png"> 
+										
+										<h3 class="text-blue mt-md">Dra Carmen Herrero</h3>
+										
+										<p>Beca 2016</p>
+										
+									</div>
+									
+									<div class="col-md-5 col-sm-6">
+									 
+										<p class="text-light-blue text-md pb-md">“Conocer el perfil de respuesta inmune tumoral </br>  
+											permitiría un mayor manejo del cáncer de mama </br> 
+											triple negativo”</p>
+									 
+										<p> El proyecto se basa en el cáncer de mama triple negativo, un </br>  
+											subtipo con mal pronóstico” explica Carmen Herrero que </br>  
+											con este proyecto de investigación ha sido la ganadora de la </br>  
+											Beca Mutual Médica 2016, dotada con 10.000 €. Además, la </br>  
+											doctora Herrero asegura que “es una gran alegría recibir</br>  
+											este reconocimiento para poder desarrollar este proyecto ya</br>  
+											que la mayoría de pacientes del hospital presentan este tipo</br>  
+											de patología.</p>
+										
+										<p class="mv-md pt-sm"> 
+											<a class="btn btn-rounded-blue-md" href="#">Acceder a la entrevista</a>   
+										</p>
+											 
+									</div>
+								
+								</div>
+								 
+							</div> 
+						  
+							<div class="item text-center">  
+							 
+								<div class="row text-left">
+								
+									<div class="col-sm-6 col-md-offset-1 pull-right"> 
+									
+										<img alt="MutualMedica" class="img-responsive img-left" src="includes/images/vid-02.png"> 
+										
+										<h3 class="text-blue mt-md">Dra Carmen Herrero</h3>
+										
+										<p>Beca 2016</p>
+										
+									</div>
+									
+									<div class="col-md-5 col-sm-6">
+									 
+										<p class="text-light-blue text-md pb-md">“Conocer el perfil de respuesta inmune tumoral </br>  
+											permitiría un mayor manejo del cáncer de mama </br> 
+											triple negativo”</p>
+									 
+										<p> El proyecto se basa en el cáncer de mama triple negativo, un </br>  
+											subtipo con mal pronóstico” explica Carmen Herrero que </br>  
+											con este proyecto de investigación ha sido la ganadora de la </br>  
+											Beca Mutual Médica 2016, dotada con 10.000 €. Además, la </br>  
+											doctora Herrero asegura que “es una gran alegría recibir</br>  
+											este reconocimiento para poder desarrollar este proyecto ya</br>  
+											que la mayoría de pacientes del hospital presentan este tipo</br>  
+											de patología.</p>
+										
+										<p class="mv-md pt-sm"> 
+											<a class="btn btn-rounded-blue-md" href="#">Acceder a la entrevista</a>   
+										</p>
+											 
+									</div>
+								
+								</div>
+								 
+							</div> 
+						  
+						</div> 
+						 
+						<ul class="ul-control">  
+							<li> 
+								<a class="left carousel-control" href="#carousel-example-generic-2" role="button" data-slide="prev">
+									<span class="icon ion-chevron-left" aria-hidden="true"></span> 
+								</a> 
+							</li>  
+							
+							<li>
+								<ol class="carousel-indicators"> 
+									<li data-target="#carousel-example-generic-2" data-slide-to="0" class="active"></li> 
+									<li data-target="#carousel-example-generic-2" data-slide-to="1" class=""></li> 
+									<li data-target="#carousel-example-generic-2" data-slide-to="2" class=""></li>  
+									<li data-target="#carousel-example-generic-2" data-slide-to="3" class=""></li> 
+									<li data-target="#carousel-example-generic-2" data-slide-to="4" class=""></li>  
+								</ol>
+							</li>
+							
+							<li> 
+								<a class="right carousel-control" href="#carousel-example-generic-2" role="button" data-slide="next">
+									<span class="icon ion-chevron-right" aria-hidden="true"></span> 
+								</a> 
+							</li>   
+						</ul>
+						 
+					</div>
+			  
+				</div>
+   					 
+			</div>		
+   
+		</div>
+		 
+		<div class="bg bg-white pt-no ph-sm-xs">  
+ 
+			<div class="container text-center pb-lg">
+			 
+				<h1>Consulta los ganadores de otras ediciones</h1>
+				
+				<div class="pv-lg mv-md">
+		 
+					<select class="form-control select-rounded-blue-yr"> 
+						<option value="2017">2017</option> 
+						<option value="2016">2016</option> 
+						<option value="2015">2015</option> 
+						<option value="2014">2014</option>  
+					</select>
+					
+				</div>
+				
+				<div class="tab-content">
+						   
+					<div class="row mb_md tab-pane" id="data-2014">
+					 
+						<div class="col-lg-5 col-lg-offset-1 col-sm-6 text-left text-left-xs">
+						
+							<h1 class="mb-no pb-no">Ganadores 2014</h1>
+						
+							<h1 class="mb-lg">Beca Mutual Médica</h1>
+							 
+							<p class="mb-md"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/foto-7.png" /></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dra. Carmen Herrero Vicent</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Evaluación de los cambios en la respuesta </br> 
+								linfocitaria en el microambiente tumoral como factor </br> 
+								pronostico y predictivo de respuesta a la quimioterápia </br> 
+								neoadyuvante del cáncer de mama"</p>
+							
+							<p class="mv-md"><b class="text-blue">Directora del Trabajo:</b> Dra. Amparo Ruíz Simón</p>
+							 
+							<p>FUNDACIÓN INSTITUTO VALENCIANO DE ONCOLOGIA</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Carmen Herrero</a></p>
+							
+							 
+							 
+							 
+							<p class="mt-lg mb-md mt-lg-xs"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/foto-9.png" /></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dra. Sara Alonso Álvarez</p>
+							
+							<p><b class="text-blue">Artículo:</b> "El microambiente tumoral en el linfoma de </br> 
+								Hodgkin. Análisis de subpoblaciones linfocitarias, </br> 
+								especifidades antigénicas y expresión genética en tejido"</p>
+							
+							<p class="mv-md"><b class="text-blue">Directora del Trabajo:</b> Enrique Colado Varela</p>
+							 
+							<p>HOSPITAL UNIVERSITARIO CENTRAL DE ASTURIAS</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Carmen Herrero</a></p>
+							
+							 
+							 
+							 
+							<p class="mt-lg mb-md mt-lg-xs"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/foto-11.png" /></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dra. Clara Pañella Vilamú</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Electroporación Selectiva de Tumores Hepáticos </br> 
+								mediante la Infusión de Sérum Hipersalí en Rata masculian"</p>
+							
+							<p class="mv-md"><b class="text-blue">Directora del Trabajo:</b> Dr. Fernando Burdío Pinilla</p>
+							 
+							<p>HOSPITAL DEL MAR</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Carmen Herrero</a></p>
+							
+							
+	 
+						</div> 
+					
+						<div class="col-lg-5 col-sm-6 text-left text-left-xs">
+						
+							<h1 class="mb-no pb-no mt-lg-xs">Ganadores</h1>
+						
+							<h1 class="mb-lg">Premios Dr. J. Font</h1>
+							 
+							<p class="mb-md"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/foto-6.png" /></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dra. Carmen Herrero Vicent</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Morbidity and mortality in the antiphospholipid </br> 
+								syndrome during a 10 year period: a multicentre prospective </br> 
+								study of 1000 patients"</p>
+							
+							<p class="mv-md"><b class="text-blue">Factor de Impacto:</b> 12,38</p>
+							
+							<p class="mv-md"><b class="text-blue">Publicado:</b> Rheumatic Diseases</p>
+							
+							<p>HOSPITAL CLÍNIC DE BARCELONA</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Carmen Herrero</a></p>
+							
+							 
+							 
+							 
+							<p class="mt-lg mb-md mt-lg-xs"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/foto-8.png" /></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dr. Manel Sabaté Tenas</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Clinical autcomes in patients with ST-segment </br> 
+								elevation myocardial infarction treated with everolimuseluting </br> 
+								stents versus bare-metal stents (EXAMINATION):  </br> 
+								5-year results of a randomised trial"</p>
+							
+							<p class="mv-md"><b class="text-blue">Factor de Impacto:</b> 45,21</p>
+							
+							<p class="mv-md"><b class="text-blue">Publicado:</b> The Lancet</p>
+							
+							<p>HOSPITAL CLÍNIC DE BARCELONA</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dr. Manel Sabaté Tenas</a></p>
+							
+							 
+							 
+							 
+							<p class="mt-lg mb-md mt-lg-xs"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/foto-10.png" /></p> 
+							 
+							<p><b class="text-blue">Ganador:</b>Dra. Esther González López</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Wild-tipe transthyretin amyloidosis as a cause of </br> 
+								heart failure with preserved ejection fraction"</p>
+							
+							<p class="mv-md"><b class="text-blue">Factor de Impacto:</b> 15,06</p>
+							
+							<p class="mv-md"><b class="text-blue">Publicado:</b> European Heart Journal</p>
+							
+							<p>INSTITUTO DE SALUD SAN CARLOS III</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Esther González López</a></p>
+							
+							
+	 
+						</div> 
+					
+					</div>
+							   
+					<div class="row mb_md tab-pane" id="data-2015">
+					 
+						<div class="col-lg-5 col-lg-offset-1 col-sm-6 text-left text-left-xs">
+						
+							<h1 class="mb-no pb-no">Ganadores 2015</h1>
+						
+							<h1 class="mb-lg">Beca Mutual Médica</h1>
+							 
+							<p class="mb-md"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/foto-7.png" /></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dra. Carmen Herrero Vicent</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Evaluación de los cambios en la respuesta </br> 
+								linfocitaria en el microambiente tumoral como factor </br> 
+								pronostico y predictivo de respuesta a la quimioterápia </br> 
+								neoadyuvante del cáncer de mama"</p>
+							
+							<p class="mv-md"><b class="text-blue">Directora del Trabajo:</b> Dra. Amparo Ruíz Simón</p>
+							 
+							<p>FUNDACIÓN INSTITUTO VALENCIANO DE ONCOLOGIA</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Carmen Herrero</a></p>
+							
+							 
+							 
+							 
+							<p class="mt-lg mb-md mt-lg-xs"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/foto-9.png" /></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dra. Sara Alonso Álvarez</p>
+							
+							<p><b class="text-blue">Artículo:</b> "El microambiente tumoral en el linfoma de </br> 
+								Hodgkin. Análisis de subpoblaciones linfocitarias, </br> 
+								especifidades antigénicas y expresión genética en tejido"</p>
+							
+							<p class="mv-md"><b class="text-blue">Directora del Trabajo:</b> Enrique Colado Varela</p>
+							 
+							<p>HOSPITAL UNIVERSITARIO CENTRAL DE ASTURIAS</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Carmen Herrero</a></p>
+							
+							 
+							 
+							 
+							<p class="mt-lg mb-md mt-lg-xs"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/foto-11.png" /></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dra. Clara Pañella Vilamú</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Electroporación Selectiva de Tumores Hepáticos </br> 
+								mediante la Infusión de Sérum Hipersalí en Rata masculian"</p>
+							
+							<p class="mv-md"><b class="text-blue">Directora del Trabajo:</b> Dr. Fernando Burdío Pinilla</p>
+							 
+							<p>HOSPITAL DEL MAR</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Carmen Herrero</a></p>
+							
+							
+	 
+						</div> 
+					
+						<div class="col-lg-5 col-sm-6 text-left text-left-xs">
+						
+							<h1 class="mb-no pb-no mt-lg-xs">Ganadores</h1>
+						
+							<h1 class="mb-lg">Premios Dr. J. Font</h1>
+							 
+							<p class="mb-md"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/foto-6.png" /></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dra. Carmen Herrero Vicent</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Morbidity and mortality in the antiphospholipid </br> 
+								syndrome during a 10 year period: a multicentre prospective </br> 
+								study of 1000 patients"</p>
+							
+							<p class="mv-md"><b class="text-blue">Factor de Impacto:</b> 12,38</p>
+							
+							<p class="mv-md"><b class="text-blue">Publicado:</b> Rheumatic Diseases</p>
+							
+							<p>HOSPITAL CLÍNIC DE BARCELONA</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Carmen Herrero</a></p>
+							
+							 
+							 
+							 
+							<p class="mt-lg mb-md mt-lg-xs"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/foto-8.png" /></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dr. Manel Sabaté Tenas</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Clinical autcomes in patients with ST-segment </br> 
+								elevation myocardial infarction treated with everolimuseluting </br> 
+								stents versus bare-metal stents (EXAMINATION):  </br> 
+								5-year results of a randomised trial"</p>
+							
+							<p class="mv-md"><b class="text-blue">Factor de Impacto:</b> 45,21</p>
+							
+							<p class="mv-md"><b class="text-blue">Publicado:</b> The Lancet</p>
+							
+							<p>HOSPITAL CLÍNIC DE BARCELONA</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dr. Manel Sabaté Tenas</a></p>
+							
+							 
+							 
+							 
+							<p class="mt-lg mb-md mt-lg-xs"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/foto-10.png" /></p> 
+							 
+							<p><b class="text-blue">Ganador:</b>Dra. Esther González López</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Wild-tipe transthyretin amyloidosis as a cause of </br> 
+								heart failure with preserved ejection fraction"</p>
+							
+							<p class="mv-md"><b class="text-blue">Factor de Impacto:</b> 15,06</p>
+							
+							<p class="mv-md"><b class="text-blue">Publicado:</b> European Heart Journal</p>
+							
+							<p>INSTITUTO DE SALUD SAN CARLOS III</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Esther González López</a></p>
+							
+							
+	 
+						</div> 
+					
+					</div>
+							   
+					<div class="row mb_md tab-pane" id="data-2016">
+					 
+						<div class="col-lg-5 col-lg-offset-1 col-sm-6 text-left text-left-xs">
+						
+							<h1 class="mb-no pb-no">Ganadores 2016</h1>
+						
+							<h1 class="mb-lg">Beca Mutual Médica</h1>
+							 
+							<p class="mb-md"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/foto-7.png" /></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dra. Carmen Herrero Vicent</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Evaluación de los cambios en la respuesta </br> 
+								linfocitaria en el microambiente tumoral como factor </br> 
+								pronostico y predictivo de respuesta a la quimioterápia </br> 
+								neoadyuvante del cáncer de mama"</p>
+							
+							<p class="mv-md"><b class="text-blue">Directora del Trabajo:</b> Dra. Amparo Ruíz Simón</p>
+							 
+							<p>FUNDACIÓN INSTITUTO VALENCIANO DE ONCOLOGIA</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Carmen Herrero</a></p>
+							
+							 
+							 
+							 
+							<p class="mt-lg mb-md mt-lg-xs"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/foto-9.png" /></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dra. Sara Alonso Álvarez</p>
+							
+							<p><b class="text-blue">Artículo:</b> "El microambiente tumoral en el linfoma de </br> 
+								Hodgkin. Análisis de subpoblaciones linfocitarias, </br> 
+								especifidades antigénicas y expresión genética en tejido"</p>
+							
+							<p class="mv-md"><b class="text-blue">Directora del Trabajo:</b> Enrique Colado Varela</p>
+							 
+							<p>HOSPITAL UNIVERSITARIO CENTRAL DE ASTURIAS</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Carmen Herrero</a></p>
+							
+							 
+							 
+							 
+							<p class="mt-lg mb-md mt-lg-xs"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/foto-11.png" /></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dra. Clara Pañella Vilamú</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Electroporación Selectiva de Tumores Hepáticos </br> 
+								mediante la Infusión de Sérum Hipersalí en Rata masculian"</p>
+							
+							<p class="mv-md"><b class="text-blue">Directora del Trabajo:</b> Dr. Fernando Burdío Pinilla</p>
+							 
+							<p>HOSPITAL DEL MAR</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Carmen Herrero</a></p>
+							
+							
+	 
+						</div> 
+					
+						<div class="col-lg-5 col-sm-6 text-left text-left-xs">
+						
+							<h1 class="mb-no pb-no mt-lg-xs">Ganadores</h1>
+						
+							<h1 class="mb-lg">Premios Dr. J. Font</h1>
+							 
+							<p class="mb-md"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/foto-6.png" /></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dra. Carmen Herrero Vicent</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Morbidity and mortality in the antiphospholipid </br> 
+								syndrome during a 10 year period: a multicentre prospective </br> 
+								study of 1000 patients"</p>
+							
+							<p class="mv-md"><b class="text-blue">Factor de Impacto:</b> 12,38</p>
+							
+							<p class="mv-md"><b class="text-blue">Publicado:</b> Rheumatic Diseases</p>
+							
+							<p>HOSPITAL CLÍNIC DE BARCELONA</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Carmen Herrero</a></p>
+							
+							 
+							 
+							 
+							<p class="mt-lg mb-md mt-lg-xs"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/foto-8.png" /></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dr. Manel Sabaté Tenas</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Clinical autcomes in patients with ST-segment </br> 
+								elevation myocardial infarction treated with everolimuseluting </br> 
+								stents versus bare-metal stents (EXAMINATION):  </br> 
+								5-year results of a randomised trial"</p>
+							
+							<p class="mv-md"><b class="text-blue">Factor de Impacto:</b> 45,21</p>
+							
+							<p class="mv-md"><b class="text-blue">Publicado:</b> The Lancet</p>
+							
+							<p>HOSPITAL CLÍNIC DE BARCELONA</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dr. Manel Sabaté Tenas</a></p>
+							
+							 
+							 
+							 
+							<p class="mt-lg mb-md mt-lg-xs"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/foto-10.png" /></p> 
+							 
+							<p><b class="text-blue">Ganador:</b>Dra. Esther González López</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Wild-tipe transthyretin amyloidosis as a cause of </br> 
+								heart failure with preserved ejection fraction"</p>
+							
+							<p class="mv-md"><b class="text-blue">Factor de Impacto:</b> 15,06</p>
+							
+							<p class="mv-md"><b class="text-blue">Publicado:</b> European Heart Journal</p>
+							
+							<p>INSTITUTO DE SALUD SAN CARLOS III</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Esther González López</a></p>
+							
+							
+	 
+						</div> 
+					
+					</div>
+							   
+					<div class="row mb_md tab-pane active" id="data-2017">
+					 
+						<div class="col-lg-5 col-lg-offset-1 col-sm-6 text-left text-left-xs">
+						
+							<h1 class="mb-no pb-no">Ganadores 2017</h1>
+						
+							<h1 class="mb-lg">Beca Mutual Médica</h1>
+							 
+							<p class="mb-md"><div class="box-image"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/a1.jpg" /></div></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dra. Carmen Herrero Vicent</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Evaluación de los cambios en la respuesta </br> 
+								linfocitaria en el microambiente tumoral como factor </br> 
+								pronostico y predictivo de respuesta a la quimioterápia </br> 
+								neoadyuvante del cáncer de mama"</p>
+							
+							<p class="mv-md"><b class="text-blue">Directora del Trabajo:</b> Dra. Amparo Ruíz Simón</p>
+							 
+							<p>FUNDACIÓN INSTITUTO VALENCIANO DE ONCOLOGIA</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Carmen Herrero</a></p>
+							
+							 
+							 
+							 
+							<p class="mt-lg mb-md mt-lg-xs"><div class="box-image"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/a2.jpg" /></div></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dra. Sara Alonso Álvarez</p>
+							
+							<p><b class="text-blue">Artículo:</b> "El microambiente tumoral en el linfoma de </br> 
+								Hodgkin. Análisis de subpoblaciones linfocitarias, </br> 
+								especifidades antigénicas y expresión genética en tejido"</p>
+							
+							<p class="mv-md"><b class="text-blue">Directora del Trabajo:</b> Enrique Colado Varela</p>
+							 
+							<p>HOSPITAL UNIVERSITARIO CENTRAL DE ASTURIAS</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Carmen Herrero</a></p>
+							
+							 
+							 
+							 
+							<p class="mt-lg mb-md mt-lg-xs"><div class="box-image"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/a3.jpg" /></div></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dra. Clara Pañella Vilamú</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Electroporación Selectiva de Tumores Hepáticos </br> 
+								mediante la Infusión de Sérum Hipersalí en Rata masculian"</p>
+							
+							<p class="mv-md"><b class="text-blue">Directora del Trabajo:</b> Dr. Fernando Burdío Pinilla</p>
+							 
+							<p>HOSPITAL DEL MAR</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Carmen Herrero</a></p>
+							
+							
+	 
+						</div> 
+					
+						<div class="col-lg-5 col-sm-6 text-left text-left-xs">
+						
+							<h1 class="mb-no pb-no mt-lg-xs">Ganadores</h1>
+						
+							<h1 class="mb-lg">Premios Dr. J. Font</h1>
+							 
+							<p class="mb-md"><div class="box-image"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/b1.jpg" /></div></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dra. Carmen Herrero Vicent</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Morbidity and mortality in the antiphospholipid </br> 
+								syndrome during a 10 year period: a multicentre prospective </br> 
+								study of 1000 patients"</p>
+							
+							<p class="mv-md"><b class="text-blue">Factor de Impacto:</b> 12,38</p>
+							
+							<p class="mv-md"><b class="text-blue">Publicado:</b> Rheumatic Diseases</p>
+							
+							<p>HOSPITAL CLÍNIC DE BARCELONA</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Carmen Herrero</a></p>
+							
+							 
+							 
+							 
+							<p class="mt-lg mb-md mt-lg-xs"><div class="box-image"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/b2.jpg" /></div></p> 
+							 
+							<p><b class="text-blue">Ganador:</b> Dr. Manel Sabaté Tenas</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Clinical autcomes in patients with ST-segment </br> 
+								elevation myocardial infarction treated with everolimuseluting </br> 
+								stents versus bare-metal stents (EXAMINATION):  </br> 
+								5-year results of a randomised trial"</p>
+							
+							<p class="mv-md"><b class="text-blue">Factor de Impacto:</b> 45,21</p>
+							
+							<p class="mv-md"><b class="text-blue">Publicado:</b> The Lancet</p>
+							
+							<p>HOSPITAL CLÍNIC DE BARCELONA</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dr. Manel Sabaté Tenas</a></p>
+							
+							 
+							 
+							 
+							<p class="mt-lg mb-md mt-lg-xs"><div class="box-image"><img alt="MutualMedica" class="img-responsive img-left img-left-xs" src="includes/images/b3.png" /></div></p> 
+							 
+							<p><b class="text-blue">Ganador:</b>Dra. Esther González López</p>
+							
+							<p><b class="text-blue">Artículo:</b> "Wild-tipe transthyretin amyloidosis as a cause of </br> 
+								heart failure with preserved ejection fraction"</p>
+							
+							<p class="mv-md"><b class="text-blue">Factor de Impacto:</b> 15,06</p>
+							
+							<p class="mv-md"><b class="text-blue">Publicado:</b> European Heart Journal</p>
+							
+							<p>INSTITUTO DE SALUD SAN CARLOS III</p>
+							
+							<p><a href="" class="text-blue underline">Lea la entrevista a la Dra. Esther González López</a></p>
+							
+							
+	 
+						</div> 
+					
+					</div>
+					
+				</div>
+			
+			</div>
+			   
+		</div> 
+		   
+	</div>
+	 
+    <footer> 
+		
+		<div class="bg-blue-light">
+			<div class="container"> 
+				<div class="row"> 
+					
+					<div class="col-md-6 col-sm-6 col-xs-12 col-lg-5 bb-xs mb-sm-xs text-left-xs pull-right">
+					
+						<div class="footer-header">Contacto</div>
+						
+						<p> 
+							¿Tienes dudas? Llámanos al <b class="text-nowrap">901 215 216</b> o déjanos tu número y en breve nos pondremos en contacto contigo. 
+						</p>
+						
+						<form> 
+						
+							<div class="row">
+							
+								<div class="col-lg-7 col-md-6 text-left">
+									<div class="mb-sm">
+										<input type="text" class="form-control input-rounded-white-sm text-center-xs" placeholder="Nombre y Apellidos"> 
+									</div>
+									<input type="text" class="form-control input-rounded-white-sm text-center-xs" placeholder="Tu teléfono">
+								</div>
+								
+								<div class="col-lg-5 col-md-6 text-right text-left-sm text-left-xs">
+									<button type="submit" class="btn btn-rounded-blue-xxs visible-sm visible-xs mt-sm">Te llamamos</button>
+									
+									<div class="line-height mb-sm   mt-xs-sm mt-xs-xs   mb-no-sm mb-no-xs"> 
+										<input type="checkbox" id="chk1" name="" class="circle-small-blue"> 
+										<label for="chk1" class="text-gray"> <i class="chk-icon"></i> No soy un robot </label> 
+									</div>
+									
+									<button type="submit" class="btn btn-rounded-blue-xxs hidden-sm hidden-xs">Te llamamos</button>
+								</div> 
+							</div> 
+						
+							<div class="mv-md mt-no-sm mt-no-xs text-left-xs"> 	 
+								<input type="checkbox" id="chk2" name="" class="circle-small-blue"> 
+								<label for="chk2" class="text-gray"> <i class="chk-icon"></i> He leído y acepto los <a href="#" class="text-light-blue text-sub text-nowrap">términos y condiciones</a> </label>   
+							</div>
+							
+						</form>
+						
+					</div> 
+ 
+					<div class="col-md-2 col-sm-3 col-xs-6 text-left-xs"> 
+						<div class="footer-header">Sobre Mutual Médica</div> 
+						<ul>   
+							<li><a href="#">Mutual Médica</a></li>
+							<li><a href="#">Noticias</a></li>
+							<li><a href="#">Prensa</a></li>
+							<li><a href="#">Seguros</a></li> 						
+						</ul> 
+					</div>
+
+					<div class="col-md-2 col-sm-3 col-xs-6 text-left-xs">
+						<div class="footer-header">Recursos de interés</div> 
+						<ul>     
+							<li><a href="#">Área del Mutualista</a></li> 
+							<li><a href="#">Links de interés</a></li> 
+						</ul> 
+					</div>
+
+					<div class="col-md-2 col-sm-3 col-xs-6 text-left-xs mt-xs-sm mt-xs-xs">
+						<div class="footer-header">Partners</div> 
+						<ul>     
+							<li><a href="#">Colegios y Hospitales</a></li> 
+						</ul> 
+					</div>
+
+				</div>
+			</div> 
+		</div>
+		
+		<div class="bg-blue">
+			<div class="container"> 
+				 
+				<div class="row">
+
+					<div class="col-md-8 text-center-xs text-center-sm">
+						<ul class="ul-line">   
+							<li>© Copyright</li>      
+							<li> </li> 
+							<li><a href="#">Política de cookies</a></li> 
+							<li> </li> 
+							<li><a href="#">Aviso legal</a></li> 
+							<li> </li> 
+							<li><a href="#">Política de privacidad</a></li> 
+							<li> </li> 
+							<li><a href="#">Mapa del Sitio</a></li> 
+						</ul> 
+					</div> 
+
+					<div class="col-md-4 text-right text-center-xs text-center-sm"> 
+						<ul class="ul-line ul-social">   
+							<li><a href="#" class="btn btn-circle"><i class="icon ion-social-twitter"></i></a></li>  
+							<li><a href="#" class="btn btn-circle"><i class="icon ion-social-linkedin"></i></a></li>  
+						</ul> 
+					</div> 
+
+				</div>
+				
+			</div> 
+		</div>
+	
+	</footer> 
+
+	<a data-spy="affix" data-offset-top="30" onclick="scroll_Up( 500 );" class="scroll_up affix-top"> <span class="glyphicon glyphicon-chevron-up"></span> </a>
+	
+	<script src="includes/js/jquery.min.js"></script> 
+	
+	<script src="includes/js/bootstrap.min.js"></script> 
+	
+	<script src="includes/js/bootstrap-datepicker.js"></script> 
+	
+	<script src="includes/js/bootstrap-datepicker.es.min.js"></script> 
+	
+	<script src="includes/js/my_style.js"></script>
+	
+	<script>
+	 
+		$(function(){
+		
+			$('.header-bg-dark .navbar-1 li').on('show.bs.dropdown', function () {
+			
+				if( !( $(this).hasClass('open') ) ) { 
+				
+					$( '.top-menu-content .top-menu-tab-pane').slideUp( "fast", "swing", function(){} ); 
+					
+					$( $(this).find('a').data('pane') ).slideDown(); 
+				}
+			});
+		
+			$('.header-bg-dark .navbar-1 li').on('hide.bs.dropdown', function () {
+			
+				if( ( $(this).hasClass('open') ) ) { $( $(this).find('a').data('pane') ).slideUp(); }
+			}); 
+			
+			// ----------------------------------------------------------------------------------------------
+		
+			$('.header-bg-white .navbar-nav li').on('show.bs.dropdown', function () {
+			
+				if( !( $(this).hasClass('open') ) ) { 
+				
+					$( '.main-menu-content .main-menu-tab-pane').slideUp( "fast", "swing", function(){} ); 
+					
+					$( $(this).find('a').data('pane') ).slideDown(); 
+				}
+			});
+		
+			$('.header-bg-white .navbar-nav li').on('hide.bs.dropdown', function () {
+			
+				if( ( $(this).hasClass('open') ) ) { $( $(this).find('a').data('pane') ).slideUp(); }
+			}); 
+		});
+	 
+		$(function () { 
+		
+			$( ".select-rounded-blue-yr" ).change(function() { 
+				var id_tab = '#data-' + $(this).val(); 
+				$( ".tab-content .active" ).fadeOut( "fast", function() {  
+					$( ".tab-content .active" ).removeClass('active'); 
+					$( id_tab ).show(); 
+					$( id_tab ).addClass('active'); 
+				});
+			});
+		});
+		
+	</script> 
+	 
+</body></html>
